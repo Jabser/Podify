@@ -88,7 +88,6 @@ podcastRoutes.delete("/delete/:id", function (req, res) {
   });
 });
 
-
 // *** Image upload
 // ******************************************************************************
 
