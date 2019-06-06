@@ -11,6 +11,7 @@ let Podcast = require('./models/podcast');
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static('public'));
 
 mongoose.connect('mongodb://127.0.0.1:27017/podcasts', { useNewUrlParser: true });
 const connection = mongoose.connection;
@@ -96,8 +97,27 @@ podcastRoutes.delete("/delete/:id", function (req, res) {
 
 // *** Image upload
 // ******************************************************************************
+var storage = multer.diskStorage({
+  destination: function(req, file, cb){
+    cb(null, 'public/images');
+  },
+  filename: function(req, file, cb){
+    cb(null, Date.now() + '-' + file.originalname);
+  }
+});
 
+var upload = multer({storage: storage}).single('file');
 
+// Post single image to server (Public/images)
+app.post('/upload', function(req, res){
+  upload(req, res, function(err){
+    if(err){
+      return res.status(500).json(err);
+    }
+    console.log('File uploaded succesfully!', req.file);
+    return res.status(200).send(req.file);
+  });
+});
 
 
 app.use('/podcasts', podcastRoutes);
