@@ -60,12 +60,18 @@ podcastRoutes.route('/update/:id').post(function (req, res) {
     if (!podcast) 
       res.status(404).send('data is not found');
     else
-      podcast.podcast_name = req.body.podcast_name;
-      podcast.podcast_test = req.body.podcast_test;
+      podcast.podcast_picture = req.body.podcast_picture;
+      podcast.podcast_titel = req.body.podcast_titel;
+      podcast.podcast_description = req.body.podcast_description;
+      podcast.podcast_itunes = req.body.podcast_itunes;
+      podcast.podcast_web = req.body.podcast_web;
+      podcast.podcast_play = req.body.podcast_play;
+      podcast.podcast_rating_like = req.body.podcast_rating_like;
+      podcast.podcast_rating_dislike = req.body.podcast_rating_dislike;
 
-    podcast.save().then(podcast => {
-      res.json('Podcast updated');
-    })
+      podcast.save().then(podcast => {
+        res.json('Podcast updated');
+      })
       .catch(err => {
         res.status(400).send("Update not possible");
       });

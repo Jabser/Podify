@@ -2,10 +2,28 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let Podcast = new Schema({
-  podcast_name: {
+  podcast_picture: {
     type: String
   },
-  podcast_test: {
+  podcast_titel: {
+    type: String
+  },
+  podcast_description: {
+    type: String
+  },
+  podcast_itunes: {
+    type: String
+  },
+  podcast_web: {
+    type: String
+  },
+  podcast_play: {
+    type: String
+  },
+  podcast_rating_like: {
+    type: String
+  },
+  podcast_rating_dislike: {
     type: String
   }
 });
