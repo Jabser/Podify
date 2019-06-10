@@ -5,6 +5,7 @@ A new way of finding podcasts.
 - [GitHub Repository](https://github.com/Jabser/Podify)
 - [Trello](https://trello.com/b/5EZ8sDQF/podify)
 - [Assets Vault - Coming soon]()
+- [Listen Notes API](https://www.listennotes.com/)
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
