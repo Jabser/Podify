@@ -1,0 +1,19 @@
+.home {
+  h1 {
+    text-align: center;
+  }
+  .search-genres {
+    text-align: center;
+
+    a {
+      color: #27323b;
+
+      &:hover {
+        
+      }
+    }
+    .fa-circle {
+      color: #df6988;
+    }
+  }
+}
