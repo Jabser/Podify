@@ -6,6 +6,7 @@ import './sass/app.scss';
 import Home from './views/Home';
 import About from './views/About';
 import Login from './views/Login';
+import Card from './components/Card'
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
+          <Route path='/card' component={Card} />
         </Router>
         <Footer />
       </div>
