@@ -11,7 +11,7 @@ class Home extends Component {
             <div className="input-group mb-3">
               <input type="text" className="form-control" placeholder="ex. genre" />
               <div className="input-group-append">
-                <button className="btn btn-secondary" type="button">Search</button>
+                <button className="btn btn-secondary" type="button">Søg</button>
               </div>
             </div>
           </form>
