@@ -7,8 +7,25 @@ body {
 
 // ****************************************** //
 /* Navigation */
+.navbar {
+  .btn-navbar {
+    margin-right: 20px;
+    border-radius: 30rem;
+    border: 2px solid;
+    border-color: #e31f52;
+    background: transparent;
+    transition: .3s;
 
+    &:hover {
+      background: #e31f52;
+      color: #fff;
+    }
 
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 
 // ****************************************** //
 /* Footer */
