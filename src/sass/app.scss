@@ -8,8 +8,18 @@ body {
 // ****************************************** //
 /* Navigation */
 .navbar {
+
+  .nav-link {
+    font-size: 1.1rem;
+    transition: .2s;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid #ccc;
+    }
+  }
   .nav-link.active {
-    
+    border-bottom: 2px solid #e31f52;
   }
   .btn-navbar {
     margin-right: 20px;
