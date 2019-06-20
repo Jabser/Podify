@@ -4,7 +4,22 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <h1>Footer</h1>
+        <div className="container">
+          <div className="footer-social">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+          <div className="footer-legal">
+            &copy; 2019 Podify - Powered by <a href="https://www.listennotes.com/" rel="noopener noreferrer" target="_blank">Listen Notes API</a>
+          </div>
+        </div>
       </div>
     )
   }
