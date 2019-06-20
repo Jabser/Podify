@@ -16,15 +16,15 @@ class Home extends Component {
             </div>
           </form>
           <div className="search-genres">
-            <a className="btn btn-link" href="">Business</a>
+            <a className="btn btn-link" href="https://listennotes.com">Business</a>
             <i class="fas fa-circle"></i>
-            <a className="btn btn-link" href="">Comedy</a>
+            <a className="btn btn-link" href="https://listennotes.com">Comedy</a>
             <i class="fas fa-circle"></i>
-            <a className="btn btn-link" href="">Crypto</a>
+            <a className="btn btn-link" href="https://listennotes.com">Crypto</a>
             <i class="fas fa-circle"></i>
-            <a className="btn btn-link" href="">Politics</a>
+            <a className="btn btn-link" href="https://listennotes.com">Politics</a>
             <i class="fas fa-circle"></i>
-            <a className="btn btn-link" href="">History</a>
+            <a className="btn btn-link" href="https://listennotes.com">History</a>
             <i class="fas fa-circle"></i>
           </div>
         </div>
