@@ -25,7 +25,6 @@ class Home extends Component {
             <a className="btn btn-link" href="https://listennotes.com">Politics</a>
             <i class="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">History</a>
-            <i class="fas fa-circle"></i>
           </div>
         </div>
       </div>
