@@ -11,8 +11,8 @@ class Navbar extends Component {
             <img src={Logo} height="60" alt="" />
           </a>
           <span class="navbar-text d-none d-md-block">
-            <button className="btn btn-navbar my-2 my-sm-0" type="submit">Login</button>
-            <button className="btn btn-navbar my-2 my-sm-0" type="submit">Sign Up</button>
+            <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0" type="submit">Login</NavLink>
+            <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0" type="submit">Sign Up</NavLink>
           </span>
           <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
