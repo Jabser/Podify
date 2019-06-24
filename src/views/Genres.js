@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class About extends Component {
-  render() {
+class Genres extends Component {
+  render () {
     return (
-      <div className="about">
+      <div className="genres">
         <div className="container">
           
         </div>
@@ -12,4 +12,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Genres;

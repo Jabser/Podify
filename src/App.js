@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/app.scss';
 
 import Home from './views/Home';
+import Popular from './views/Popular';
+import Genres from './views/Genres';
 import About from './views/About';
 import Login from './views/Login';
 import Card from './components/Card'
@@ -19,6 +21,8 @@ class App extends Component {
         <Router>
           <Navbar />
           <Route exact path='/' component={Home} />
+          <Route path='/popular' component={Popular} />
+          <Route path='/genres' component={Genres} />
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
           <Route path='/card' component={Card} />
