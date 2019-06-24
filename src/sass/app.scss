@@ -21,8 +21,14 @@ body {
   .nav-link.active {
     border-bottom: 2px solid #e31f52;
   }
+
+  .btn-separator {
+    font-size: 2rem;
+    vertical-align: middle;
+    margin: 0 20px;
+  }
+
   .btn-navbar {
-    margin-right: 20px;
     border-radius: 30rem;
     border: 2px solid;
     border-color: #e31f52;
@@ -31,11 +37,21 @@ body {
 
     &:hover {
       background: #e31f52;
-      color: #fff;
+      color: #fff !important;
     }
 
-    &:last-child {
-      margin-right: 0;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn-add {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff !important;
+
+    &:hover {
+      background: #0062cc;
+      color: #fff;
     }
   }
 }

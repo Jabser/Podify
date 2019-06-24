@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../images/podify-logo.png';
 
 class Navbar extends Component {
   render() {
     return (
       <div>
           <nav class="navbar navbar-expand-md navbar-light flex-row">
-          <a class="navbar-brand mx-md-auto mr-auto" href="/">
-            <img src={Logo} height="60" alt="" />
-          </a>
-          <span class="navbar-text d-none d-md-block">
-            <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0" type="submit">Login</NavLink>
-            <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0" type="submit">Sign Up</NavLink>
-          </span>
           <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,6 +29,13 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/card">card</NavLink>
               </li>
             </ul>
+            <span class="navbar-text d-none d-md-block">
+              <NavLink to="/" className="btn btn-navbar btn-add my-2 my-sm-0" type="submit">Add Podcast</NavLink>
+              <span className="btn-separator">
+                |
+              </span>
+              <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0" type="submit">Login</NavLink>
+            </span>
           </div>
         </nav>
       </div>
