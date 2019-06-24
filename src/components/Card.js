@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import podlogo from '../images/moerkeland-logo.jpg';
-import '../sass/card.scss'
+import '../sass/card.scss';
+import Player from '../components/Player'
+import Description from '../components/description'
 
 
  class Card extends Component {
@@ -17,9 +19,7 @@ import '../sass/card.scss'
           <h2><span>by</span> MØRKELAND</h2>
         </div>
         <div className="play">
-          <i className="fas fa-play"></i>
-          <i className="fas fa-pause"></i>
-          <audio src=""></audio>
+          <Player/>
         </div>
         <div className="rating">
           <div className="like">
@@ -32,7 +32,7 @@ import '../sass/card.scss'
           </div>
         </div>
         <div className="desc">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ias dicta animi laudantium placeat debitis quo cumque!</p>
+          <Description />
         </div>
       </div>
     )
