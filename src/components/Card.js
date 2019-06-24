@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import podlogo from '../images/moerkeland-logo.jpg';
 import '../sass/card.scss';
-import Player from '../components/Player'
-import Description from '../components/description'
+import Player from '../components/Player';
+import Description from '../components/Description';
 
 
  class Card extends Component {
@@ -39,4 +39,4 @@ import Description from '../components/description'
   }
 }
 
-export default Card
+export default Card;
