@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../sass/home.scss';
+import Logo from '../images/podify-logo.png';
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
         <div className="container">
+          <img src={Logo} alt="Logo duuh" className="img-fluid logo mx-auto d-block" />
           <h1 className="text-center">Search for podcasts</h1>
           <form action="">
             <div className="input-group mb-3">
