@@ -1,9 +1,9 @@
 .about {
-  padding: 30vh 0;
+  padding: 20vh 0;
 
   .about-card {
     text-align: center;
-    padding: 5vh 0;
+    padding: 10vh 0;
 
     &:first-of-type {
       padding: 0 0 5vh 0;
@@ -16,6 +16,10 @@
       h3 {
         color: #999;
       }
+    }
+
+    .fa-10x {
+      color: #1d2024;
     }
 
     h1 {
