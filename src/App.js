@@ -9,6 +9,8 @@ import Popular from './views/Popular';
 import Genres from './views/Genres';
 import About from './views/About';
 import Login from './views/Login';
+
+// Temp Link
 import Card from './components/Card'
 
 import Navbar from './components/Navbar';
