@@ -62,7 +62,7 @@ podcastRoutes.route('/update/:id').post(function (req, res) {
       res.status(404).send('data is not found');
     else
       podcast.podcast_picture = req.body.podcast_picture;
-      podcast.podcast_titel = req.body.podcast_titel;
+      podcast.podcast_title = req.body.podcast_title;
       podcast.podcast_description = req.body.podcast_description;
       podcast.podcast_itunes = req.body.podcast_itunes;
       podcast.podcast_web = req.body.podcast_web;

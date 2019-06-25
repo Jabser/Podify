@@ -5,7 +5,7 @@ let Podcast = new Schema({
   podcast_picture: {
     type: String
   },
-  podcast_titel: {
+  podcast_title: {
     type: String
   },
   podcast_description: {
