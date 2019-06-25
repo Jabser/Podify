@@ -51,6 +51,7 @@ body {
     transition: .3s;
 
     &:hover {
+      border-color: #ba1a44;
       background: #ba1a44;
     }
 
@@ -64,6 +65,7 @@ body {
     color: #fff !important;
 
     &:hover {
+      border-color: #0062cc;
       background: #0062cc;
       color: #fff;
     }
