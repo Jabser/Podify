@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from '../images/podify-logo.png';
 import '../sass/about.scss';
 
 class About extends Component {
@@ -7,6 +8,7 @@ class About extends Component {
     return (
       <div className="about">
         <div className="container">
+          <img src={Logo} alt="logo" className="img-fluid d-block mx-auto logo" />
           <div className="about-card">
             <h1>Access Podcasts Instantly</h1>
             <p>
