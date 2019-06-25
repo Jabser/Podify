@@ -28,6 +28,7 @@ class About extends Component {
               </div>
             </div>
           </div>
+          <hr/>
           <div className="about-card">
             <div className="row">
               <div className="col-6">
