@@ -9,6 +9,7 @@ import Popular from './views/Popular';
 import Genres from './views/Genres';
 import About from './views/About';
 import Login from './views/Login';
+import Signup from './views/Signup';
 
 // Temp Link
 import Card from './components/Card'
@@ -28,6 +29,7 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
           <Route path='/card' component={Card} />
+          <Route path='/signup' component={Signup} />
         </Router>
         <Footer />
       </div>
