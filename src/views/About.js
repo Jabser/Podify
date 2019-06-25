@@ -21,6 +21,7 @@ class About extends Component {
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt doloribus porro, laudantium molestiae delectus mollitia reiciendis rem neque nihil aliquid temporibus autem excepturi, incidunt sequi. Officiis cumque sint eveniet!
                 </p>
+                <NavLink to="/popular" className="about-link">Browse the most popular </NavLink>
               </div>
               <div className="col-6">
                 
@@ -33,20 +34,22 @@ class About extends Component {
 
               </div>
               <div className="col-6">
-                <h1>Empty empty</h1>
+                <h1>Empty empty <span class="badge badge-warning">Coming Soon</span></h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt doloribus porro, laudantium molestiae delectus mollitia reiciendis rem neque nihil aliquid temporibus autem excepturi, incidunt sequi. Officiis cumque sint eveniet!
                 </p>
+                <NavLink to="/popular" className="btn btn-link about-link disabled">Browse the most popular </NavLink>
               </div>
             </div>
           </div>
           <div className="about-card">
             <div className="row">
               <div className="col-6">
-                <h1>Empty empty</h1>
+                <h1>Empty empty <span class="badge badge-warning">Coming Soon</span></h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt doloribus porro, laudantium molestiae delectus mollitia reiciendis rem neque nihil aliquid temporibus autem excepturi, incidunt sequi. Officiis cumque sint eveniet!
                 </p>
+                <NavLink to="/popular" className="btn btn-link about-link disabled">Browse the most popular </NavLink>
               </div>
               <div className="col-6">
 
