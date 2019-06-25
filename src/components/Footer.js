@@ -7,13 +7,13 @@ class Footer extends Component {
         <div className="container">
           <div className="footer-social">
             <a href="https://facebook.com">
-              <i class="fab fa-facebook-square fa-2x"></i>
+              <i className="fab fa-facebook-square fa-2x"></i>
             </a>
             <a href="https://twitter.com">
-              <i class="fab fa-twitter-square fa-2x"></i>
+              <i className="fab fa-twitter-square fa-2x"></i>
             </a>
             <a href="https://instagram.com">
-              <i class="fab fa-instagram fa-2x"></i>
+              <i className="fab fa-instagram fa-2x"></i>
             </a>
           </div>
           <div className="footer-legal">

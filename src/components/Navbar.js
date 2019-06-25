@@ -5,14 +5,14 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-          <nav class="navbar navbar-expand-md navbar-light flex-row">
-          <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
-            <span class="navbar-toggler-icon"></span>
+          <nav className="navbar navbar-expand-md navbar-light flex-row">
+          <button className="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span className="navbar-toggler-icon"></span>
           </button>
         </nav>
-        <nav class="navbar p-0 navbar-expand-md navbar-light">
-          <div class="collapse navbar-collapse px-3" id="navbarContent">
-            <ul class="navbar-nav mx-md-auto mx-0 w-50 align-items-start nav-fill">
+        <nav className="navbar p-0 navbar-expand-md navbar-light">
+          <div className="collapse navbar-collapse px-3" id="navbarContent">
+            <ul className="navbar-nav mx-md-auto mx-0 w-50 align-items-start nav-fill">
               <li className="nav-item">
                 <NavLink className="nav-link" exact={true} activeClassName="active" to="/">Home</NavLink>
               </li>
@@ -29,7 +29,7 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/card">card (Temp)</NavLink>
               </li>
             </ul>
-            <span class="navbar-text d-none d-md-block">
+            <span className="navbar-text d-none d-md-block">
               <NavLink to="/" className="btn btn-navbar btn-add my-2 my-sm-0">Add Podcast</NavLink>
               <span className="btn-separator">
                 |

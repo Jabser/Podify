@@ -19,13 +19,13 @@ class Home extends Component {
           </form>
           <div className="search-genres">
             <a className="btn btn-link" href="https://listennotes.com">Business</a>
-            <i class="fas fa-circle"></i>
+            <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">Comedy</a>
-            <i class="fas fa-circle"></i>
+            <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">Crypto</a>
-            <i class="fas fa-circle"></i>
+            <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">Politics</a>
-            <i class="fas fa-circle"></i>
+            <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">History</a>
           </div>
         </div>

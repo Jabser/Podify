@@ -39,7 +39,7 @@ class About extends Component {
                 <NavLink to="/popular" className="about-link">Browse the most popular </NavLink>
               </div>
               <div className="col-6">
-                <i class="fas fa-fire-alt fa-10x"></i>
+                <i className="fas fa-fire-alt fa-10x"></i>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ class About extends Component {
                 <img src="https://steamcdn-a.akamaihd.net/store/about/cta_hero_steamworks_pt1.png" alt="about img" className="img-fluid" />
               </div>
               <div className="col-6">
-                <h1>Library Management <span class="badge badge-secondary">Coming Soon</span></h1>
+                <h1>Library Management <span className="badge badge-secondary">Coming Soon</span></h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt doloribus porro, laudantium molestiae delectus mollitia reiciendis rem neque nihil aliquid temporibus autem excepturi, incidunt sequi. Officiis cumque sint eveniet!
                 </p>
@@ -60,7 +60,7 @@ class About extends Component {
           <div className="about-card">
             <div className="row">
               <div className="col-6">
-                <h1>Curation Tools <span class="badge badge-secondary">Coming Soon</span></h1>
+                <h1>Curation Tools <span className="badge badge-secondary">Coming Soon</span></h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt doloribus porro, laudantium molestiae delectus mollitia reiciendis rem neque nihil aliquid temporibus autem excepturi, incidunt sequi. Officiis cumque sint eveniet!
                 </p>
