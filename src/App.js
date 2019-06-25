@@ -10,6 +10,7 @@ import Genres from './views/Genres';
 import About from './views/About';
 import Login from './views/Login';
 import Card from './components/Card'
+import Create from './views/manage/Create';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
           <Route path='/card' component={Card} />
+          <Route path='/create' component={Create} />
         </Router>
         <Footer />
       </div>
