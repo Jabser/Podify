@@ -1,0 +1,56 @@
+.about {
+  padding: 30vh 0;
+
+  .about-card {
+    text-align: center;
+    padding: 5vh 0;
+
+    &:first-of-type {
+      padding: 0 0 5vh 0;
+    }
+
+    .stats {
+      text-align: center;
+      margin-top: 50px;
+
+      h3 {
+        color: #999;
+      }
+    }
+
+    h1 {
+      padding: 0;
+      font-size: 45px;
+
+      span {
+        font-size: 30%;
+        vertical-align: middle;
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .about-link {
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+
+      &:after {
+        content: "➜";
+        width: 40px;
+        display: inline-block;
+        text-align: left;
+        transition: padding 100ms ease-out, width 100ms ease-out;
+      }
+
+      &:hover:after {
+        width: 30px;
+        padding-left: 10px;
+      }
+    }
+  }
+}
