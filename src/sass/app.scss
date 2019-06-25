@@ -32,12 +32,12 @@ body {
     border-radius: 30rem;
     border: 2px solid;
     border-color: #e31f52;
-    background: transparent;
+    background: #e31f52;
+    color: #fff !important;
     transition: .3s;
 
     &:hover {
-      background: #e31f52;
-      color: #fff !important;
+      background: #ba1a44;
     }
 
     &:focus {
