@@ -28,7 +28,7 @@ const Podcast = props => (
         <i className="fas fa-thumbs-up"></i>
         <p>{props.podcast.podcast_rating_like}</p>
       </div>
-      <div className="dislike">
+      <div className="like">
         <i className="fas fa-thumbs-down"></i>
         <p>{props.podcast.podcast_rating_dislike}</p>
       </div>
