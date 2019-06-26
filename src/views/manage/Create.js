@@ -117,6 +117,7 @@ class Create extends Component {
                 id="title"
                 value={this.state.podcast_title}
                 onChange={this.onChangePodcastTitle}
+                className="form-control"
               />
             </div>
 
@@ -127,6 +128,7 @@ class Create extends Component {
                 id="description"
                 value={this.state.podcast_description}
                 onChange={this.onChangePodcastDescription}
+                className="form-control"
               />
             </div>
 
@@ -137,6 +139,7 @@ class Create extends Component {
                 id="author"
                 value={this.state.podcast_author}
                 onChange={this.onChangePodcastAuthor}
+                className="form-control"
               />
             </div>
 
@@ -147,6 +150,7 @@ class Create extends Component {
                 id="itunes"
                 value={this.state.podcast_itunes}
                 onChange={this.onChangePodcastItunes}
+                className="form-control"
               />
             </div>
 
@@ -157,6 +161,7 @@ class Create extends Component {
                 id="web"
                 value={this.state.podcast_web}
                 onChange={this.onChangePodcastWeb}
+                className="form-control"
               />
             </div>
 
@@ -167,6 +172,7 @@ class Create extends Component {
                 id="play"
                 value={this.state.podcast_play}
                 onChange={this.onChangePodcastPlay}
+                className="form-control"
               />
             </div>
 
@@ -177,11 +183,13 @@ class Create extends Component {
 
 
             {/* Picture */}
-
+            <div className="form-group">
+              <label htmlFor="picture">Picture - Coming Soon</label>
+            </div>
 
             {/* Submit to DB */}
             <div className="form-group">
-              <button type="submit">Create Podcast</button>
+              <button type="submit" className="btn btn-add">Create Podcast</button>
             </div>
           </form>
         </div>

@@ -1,5 +1,27 @@
 .create {
-  
+
+  padding: 10vh 0;
+
+  label {
+    display: block;
+    font-size: 1.2rem;
+  } 
+  .form-control {
+    border-radius: .75rem;
+    font-size: 1.2rem;
+    box-shadow: 0 0 4px rgba(3,27,78,.06);
+  }
+
+  .btn-add {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff !important;
+
+    &:hover {
+      background: #0062cc;
+      color: #fff;
+    }
+  }
 }
 
 .edit {
