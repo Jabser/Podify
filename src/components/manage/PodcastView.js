@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import '../../sass/card.scss';
 import '../../sass/manage.scss'
 import axios from 'axios';
 

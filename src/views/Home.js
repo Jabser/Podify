@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../sass/home.scss';
 import Logo from '../images/podify-logo.png';
 import PodcastView from '../components/manage/PodcastView';
-import '../sass/card.scss';
-// import '../../sass/player.scss';
 
 class Home extends Component {
   render() {
