@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../sass/home.scss';
 import Logo from '../images/podify-logo.png';
 import PodcastView from '../components/manage/PodcastView';
+import '../sass/card.scss';
+// import '../../sass/player.scss';
 
 class Home extends Component {
   render() {
@@ -29,7 +31,7 @@ class Home extends Component {
             <i class="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">History</a>
           </div>
-          {/* <PodcastView /> */}
+          <PodcastView />
         </div>
       </div>
     )
