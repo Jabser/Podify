@@ -1,16 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand&display=swap');
 
 #card{
   width: 1000px;
   height: 450px;
-  border: 1px solid black;
+  border: 1px solid #ced4da;
+  border-radius: .50rem;
+  box-shadow: 0 0 4px rgba(3, 27, 78, 0.06);
   margin: 20px;
   display: grid;
   grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px;
   grid-template-rows: 20px 1fr 1fr 20px 2fr 20px;
   color: #db2b39;
-  font-family: 'Open Sans Condensed', sans-serif;
+  // font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 50px;
+
+  &:first-of-type {
+    margin-top: 150px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 
   .logo{
     width: 200px;
@@ -90,6 +101,7 @@
 
     p{
       color: #000;
+      margin-top: 30px;
     }
   }
 
