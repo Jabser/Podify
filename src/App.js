@@ -28,7 +28,6 @@ class App extends Component {
           <Route path='/genres' component={Genres} />
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
-          <Route path='/card' component={Card} />
           <Route path='/signup' component={Signup} />
         </Router>
         <Footer />

@@ -25,9 +25,6 @@ class Navbar extends Component {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">About</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/card">card (Temp)</NavLink>
-              </li>
             </ul>
             <span className="navbar-text d-none d-md-block">
               <NavLink to="/" className="btn btn-navbar btn-add my-2 my-sm-0">Add Podcast</NavLink>
