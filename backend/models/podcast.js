@@ -11,6 +11,9 @@ let Podcast = new Schema({
   podcast_description: {
     type: String
   },
+  podcast_author: {
+    type: String
+  },
   podcast_itunes: {
     type: String
   },

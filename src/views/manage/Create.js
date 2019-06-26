@@ -10,6 +10,7 @@ class Create extends Component {
 
     this.onChangePodcastTitle = this.onChangePodcastTitle.bind(this);
     this.onChangePodcastDescription = this.onChangePodcastDescription.bind(this);
+    this.onChangePodcastAuthor = this.onChangePodcastAuthor.bind(this);
     this.onChangePodcastItunes = this.onChangePodcastItunes.bind(this);
     this.onChangePodcastWeb = this.onChangePodcastWeb.bind(this);
     this.onChangePodcastPlay = this.onChangePodcastPlay.bind(this);
@@ -20,6 +21,7 @@ class Create extends Component {
       podcast_picture: '',
       podcast_title: '',
       podcast_description: '',
+      podcast_author: '',
       podcast_itunes: '',
       podcast_web: '',
       podcast_play: '',
@@ -37,6 +39,12 @@ class Create extends Component {
   onChangePodcastDescription(e) {
     this.setState({
       podcast_description: e.target.value
+    });
+  }
+
+  onChangePodcastAuthor(e) {
+    this.setState({
+      podcast_author: e.target.value
     });
   }
 
@@ -64,6 +72,7 @@ class Create extends Component {
     console.log(`Following podcast created:`);
     console.log(`Title: ${this.state.podcast_title}`);
     console.log(`Description: ${this.state.podcast_description}`);
+    console.log(`Author: ${this.state.podcast_author}`);
     console.log(`Itunes: ${this.state.podcast_itunes}`);
     console.log(`Web: ${this.state.podcast_web}`);
     console.log(`Play: ${this.state.podcast_play}`);
@@ -72,6 +81,7 @@ class Create extends Component {
       podcast_picture: this.state.podcast_picture,
       podcast_title: this.state.podcast_title,
       podcast_description: this.state.podcast_description,
+      podcast_author: this.state.podcast_author,
       podcast_itunes: this.state.podcast_itunes,
       podcast_web: this.state.podcast_web,
       podcast_play: this.state.podcast_play,
@@ -86,6 +96,7 @@ class Create extends Component {
       podcast_picture: '',
       podcast_title: '',
       podcast_description: '',
+      podcast_author: '',
       podcast_itunes: '',
       podcast_web: '',
       podcast_play: '',
@@ -116,6 +127,16 @@ class Create extends Component {
                 id="description"
                 value={this.state.podcast_description}
                 onChange={this.onChangePodcastDescription}
+              />
+            </div>
+
+            {/* Author */}
+            <div className="form-group">
+              <label htmlFor="author">Author</label>
+              <input type="text"
+                id="author"
+                value={this.state.podcast_author}
+                onChange={this.onChangePodcastAuthor}
               />
             </div>
 
