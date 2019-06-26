@@ -23,8 +23,8 @@ class Create extends Component {
       podcast_itunes: '',
       podcast_web: '',
       podcast_play: '',
-      podcast_rating_like: '',
-      podcast_rating_dislike: ''
+      podcast_rating_like: '0',
+      podcast_rating_dislike: '0'
     }
   }
 
@@ -69,7 +69,14 @@ class Create extends Component {
     console.log(`Play: ${this.state.podcast_play}`);
 
     const newPodcast = {
-
+      podcast_picture: this.state.podcast_picture,
+      podcast_title: this.state.podcast_title,
+      podcast_description: this.state.podcast_description,
+      podcast_itunes: this.state.podcast_itunes,
+      podcast_web: this.state.podcast_web,
+      podcast_play: this.state.podcast_play,
+      podcast_rating_like: this.state.podcast_rating_like,
+      podcast_rating_dislike: this.state.podcast_rating_dislike
     }
 
     axios.post('http://localhost:3020/podcasts/add', newPodcast)
@@ -82,8 +89,8 @@ class Create extends Component {
       podcast_itunes: '',
       podcast_web: '',
       podcast_play: '',
-      podcast_rating_like: '',
-      podcast_rating_dislike: ''
+      podcast_rating_like: '0',
+      podcast_rating_dislike: '0'
     })
   }
 
