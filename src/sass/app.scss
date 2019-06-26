@@ -9,8 +9,8 @@ body {
 /* Navigation */
 .navbar {
   position: relative;
-  background: rgba(0, 0, 0, 1);
   padding: 0;
+  box-shadow: 0 0 4px rgba(3,27,78,.20);
 
   .navbar-nav {
     padding: 16px 0;
@@ -25,7 +25,6 @@ body {
     font-size: 1.1rem;
     transition: .2s;
     border-bottom: 2px solid transparent;
-    color: #fff !important;
 
     &:hover {
       border-bottom: 2px solid #ccc;
