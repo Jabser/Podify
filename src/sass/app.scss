@@ -8,6 +8,18 @@ body {
 // ****************************************** //
 /* Navigation */
 .navbar {
+  position: relative;
+  padding: 0;
+  box-shadow: 0 0 4px rgba(3,27,78,.20);
+
+  .navbar-nav {
+    padding: 16px 0;
+  }
+
+  .navbar-text {
+    position: absolute;
+    right: 15px;
+  }
 
   .nav-link {
     font-size: 1.1rem;
@@ -26,6 +38,7 @@ body {
     font-size: 2rem;
     vertical-align: middle;
     margin: 0 20px;
+    color: #CCC;
   }
 
   .btn-navbar {
@@ -37,6 +50,7 @@ body {
     transition: .3s;
 
     &:hover {
+      border-color: #ba1a44;
       background: #ba1a44;
     }
 
@@ -50,6 +64,7 @@ body {
     color: #fff !important;
 
     &:hover {
+      border-color: #0062cc;
       background: #0062cc;
       color: #fff;
     }
