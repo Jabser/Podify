@@ -8,7 +8,7 @@ import Description from '../components/Description';
  class Card extends Component {
   render() {
     return (
-      <div id="Card">
+      <div id="card">
         <img src={podlogo} alt="podcast logo" className="logo"/>
         <div className="links">
           <a href="/" className="apple"><i className="fab fa-apple"></i>ITUNES</a>
