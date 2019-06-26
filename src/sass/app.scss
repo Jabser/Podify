@@ -74,7 +74,7 @@ body {
 // ****************************************** //
 /* Footer */
 .footer {
-  background-color: black;
+  background-color: #313131;
   color: #fff;
   padding: 50px 0 20px 0;
   box-sizing: content-box;
@@ -85,11 +85,11 @@ body {
 
     .fab {
       margin: 0 15px;
-      color: #e21a4e;
+      color: #fff;
       transition: .2s;
 
       &:hover {
-        color: #b91640;
+        color: #ccc;
       }
     }
   }
