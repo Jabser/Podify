@@ -118,15 +118,29 @@ class Create extends Component {
             </div>
             <div className="col-8">
               <form onSubmit={this.onSubmit}>
-                {/* Title */}
-                <div className="form-group">
-                  <label htmlFor="title">Title</label>
-                  <input type="text"
-                    id="title"
-                    value={this.state.podcast_title}
-                    onChange={this.onChangePodcastTitle}
-                    className="form-control"
-                  />
+                <div className="row">
+                  <div className="col-6">
+                    {/* Title */}
+                    <div className="form-group">
+                      <label htmlFor="title">Title</label>
+                      <input type="text"
+                        id="title"
+                        value={this.state.podcast_title}
+                        onChange={this.onChangePodcastTitle}
+                        className="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    {/* Episode */}
+                    <div className="form-group">
+                      <label htmlFor="episode">Episode</label>
+                      <input type="number"
+                        id="episode"
+                        className="form-control"
+                      />
+                    </div>
+                  </div>
                 </div>
 
                 {/* Description */}
@@ -151,9 +165,11 @@ class Create extends Component {
                   />
                 </div>
 
+                <hr/>
+
                 {/* Itunes */}
                 <div className="form-group">
-                  <label htmlFor="itunes">Itunes</label>
+                  <label htmlFor="itunes"><i class="fab fa-apple fa-fw"></i> Itunes</label>
                   <input type="text"
                     id="itunes"
                     value={this.state.podcast_itunes}
@@ -164,7 +180,7 @@ class Create extends Component {
 
                 {/* Web */}
                 <div className="form-group">
-                  <label htmlFor="web">Web</label>
+                  <label htmlFor="web"><i class="fas fa-link fa-fw"></i> Website</label>
                   <input type="text"
                     id="web"
                     value={this.state.podcast_web}
@@ -175,7 +191,7 @@ class Create extends Component {
 
                 {/* Play */}
                 <div className="form-group">
-                  <label htmlFor="play">Play Link</label>
+                  <label htmlFor="play"><i class="fas fa-play-circle fa-fw"></i> Play Link (Listenotes)</label>
                   <input type="text"
                     id="play"
                     value={this.state.podcast_play}
@@ -183,6 +199,8 @@ class Create extends Component {
                     className="form-control"
                   />
                 </div>
+
+                <hr/>
 
                 {/* Rating - Like */}
 
@@ -192,8 +210,11 @@ class Create extends Component {
 
                 {/* Picture */}
                 <div className="form-group">
-                  <label htmlFor="picture">Picture - Coming Soon</label>
+                  <label htmlFor="picture"><i class="far fa-images fa-fw"></i> Picture</label>
+                  <input type="file" onChange={this.onChangeHandler} name="file" id="file" className="btn btn-upload"/>
                 </div>
+
+                <hr/>
 
                 {/* Submit to DB */}
                 <div className="form-group">
