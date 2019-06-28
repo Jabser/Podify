@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom'
-import '../sass/signup.scss'
 
 class Signup extends Component {
   render() {
