@@ -11,6 +11,8 @@ import About from './views/About';
 import Login from './views/Login';
 import Signup from './views/Signup';
 
+import Card from './components/Card';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -26,6 +28,8 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/login' component={Login} />
           <Route path='/signup' component={Signup} />
+
+          <Route path='/card' component={Card} />
         </Router>
         <Footer />
       </div>

@@ -99,3 +99,33 @@
   }
 }
 
+.fbx{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 35px;
+  margin-top: 25px;
+
+  .fas.fa-play-circle{
+    font-size: 30px;
+  }
+  .fas.fa-pause-circle{
+    font-size: 30px;
+  }
+
+  #timeline{
+    width: 630px;
+    height: 10px;
+    border: 1.5px solid pink;
+    border-radius: 2px;
+    margin-top: 10px;
+
+    #handle{
+      width: 5px;
+      height: 16px;
+      margin-top: -4px;
+      background: #db2b39;
+    }
+  }
+}

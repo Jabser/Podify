@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import podlogo from '../images/moerkeland-logo.jpg';
 import '../sass/card.scss';
-import Player from '../components/Player';
-import Description from '../components/Description';
+import Player from '../components/card/Player';
+import Description from '../components/card/Description';
 
 
  class Card extends Component {

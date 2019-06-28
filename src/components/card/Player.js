@@ -1,6 +1,5 @@
 import React from 'react';
-import '../sass/player.scss'
-import Audiofile from '../audio/bensound-creepy.mp3';
+import Audiofile from '../../audio/bensound-creepy.mp3';
 
 export default class Player extends React.Component {
 
