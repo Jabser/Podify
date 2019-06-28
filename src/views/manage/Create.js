@@ -109,89 +109,100 @@ class Create extends Component {
     return (
       <div className="create">
         <div className="container">
-          <form onSubmit={this.onSubmit}>
-            {/* Title */}
-            <div className="form-group">
-              <label htmlFor="title">Title</label>
-              <input type="text"
-                id="title"
-                value={this.state.podcast_title}
-                onChange={this.onChangePodcastTitle}
-                className="form-control"
-              />
+          <div className="row">
+            <div className="col-4">
+              <h1>Add Podcast</h1>
+              <hr/>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi labore atque ipsum natus. Quam maiores excepturi enim nam, necessitatibus placeat molestiae illo quia! Aut voluptate explicabo, optio molestiae veniam impedit.
+              </p>
             </div>
+            <div className="col-8">
+              <form onSubmit={this.onSubmit}>
+                {/* Title */}
+                <div className="form-group">
+                  <label htmlFor="title">Title</label>
+                  <input type="text"
+                    id="title"
+                    value={this.state.podcast_title}
+                    onChange={this.onChangePodcastTitle}
+                    className="form-control"
+                  />
+                </div>
 
-            {/* Description */}
-            <div className="form-group">
-              <label htmlFor="description">Description</label>
-              <input type="text"
-                id="description"
-                value={this.state.podcast_description}
-                onChange={this.onChangePodcastDescription}
-                className="form-control"
-              />
+                {/* Description */}
+                <div className="form-group">
+                  <label htmlFor="description">Description</label>
+                  <input type="text"
+                    id="description"
+                    value={this.state.podcast_description}
+                    onChange={this.onChangePodcastDescription}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* Author */}
+                <div className="form-group">
+                  <label htmlFor="author">Author</label>
+                  <input type="text"
+                    id="author"
+                    value={this.state.podcast_author}
+                    onChange={this.onChangePodcastAuthor}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* Itunes */}
+                <div className="form-group">
+                  <label htmlFor="itunes">Itunes</label>
+                  <input type="text"
+                    id="itunes"
+                    value={this.state.podcast_itunes}
+                    onChange={this.onChangePodcastItunes}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* Web */}
+                <div className="form-group">
+                  <label htmlFor="web">Web</label>
+                  <input type="text"
+                    id="web"
+                    value={this.state.podcast_web}
+                    onChange={this.onChangePodcastWeb}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* Play */}
+                <div className="form-group">
+                  <label htmlFor="play">Play Link</label>
+                  <input type="text"
+                    id="play"
+                    value={this.state.podcast_play}
+                    onChange={this.onChangePodcastPlay}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* Rating - Like */}
+
+
+                {/* Rating - Dislike */}
+
+
+                {/* Picture */}
+                <div className="form-group">
+                  <label htmlFor="picture">Picture - Coming Soon</label>
+                </div>
+
+                {/* Submit to DB */}
+                <div className="form-group">
+                  <button type="submit" className="btn btn-add">Create Podcast</button>
+                </div>
+              </form>
             </div>
-
-            {/* Author */}
-            <div className="form-group">
-              <label htmlFor="author">Author</label>
-              <input type="text"
-                id="author"
-                value={this.state.podcast_author}
-                onChange={this.onChangePodcastAuthor}
-                className="form-control"
-              />
-            </div>
-
-            {/* Itunes */}
-            <div className="form-group">
-              <label htmlFor="itunes">Itunes</label>
-              <input type="text"
-                id="itunes"
-                value={this.state.podcast_itunes}
-                onChange={this.onChangePodcastItunes}
-                className="form-control"
-              />
-            </div>
-
-            {/* Web */}
-            <div className="form-group">
-              <label htmlFor="web">Web</label>
-              <input type="text"
-                id="web"
-                value={this.state.podcast_web}
-                onChange={this.onChangePodcastWeb}
-                className="form-control"
-              />
-            </div>
-
-            {/* Play */}
-            <div className="form-group">
-              <label htmlFor="play">Play Link</label>
-              <input type="text"
-                id="play"
-                value={this.state.podcast_play}
-                onChange={this.onChangePodcastPlay}
-                className="form-control"
-              />
-            </div>
-
-            {/* Rating - Like */}
-
-
-            {/* Rating - Dislike */}
-
-
-            {/* Picture */}
-            <div className="form-group">
-              <label htmlFor="picture">Picture - Coming Soon</label>
-            </div>
-
-            {/* Submit to DB */}
-            <div className="form-group">
-              <button type="submit" className="btn btn-add">Create Podcast</button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     )
