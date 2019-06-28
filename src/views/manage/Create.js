@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import '../../sass/manage.scss'
 import axios from 'axios';
 
@@ -18,7 +17,7 @@ class Create extends Component {
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
-      podcast_picture: '',
+      podcast_picture: 'http://localhost:3000/static/media/moerkeland-logo.1fc3ce2b.jpg',
       podcast_title: '',
       podcast_description: '',
       podcast_author: '',
@@ -93,7 +92,7 @@ class Create extends Component {
       .then(res => console.log(res.data));
 
     this.setState({
-      podcast_picture: '',
+      podcast_picture: 'http://localhost:3000/static/media/moerkeland-logo.1fc3ce2b.jpg',
       podcast_title: '',
       podcast_description: '',
       podcast_author: '',
