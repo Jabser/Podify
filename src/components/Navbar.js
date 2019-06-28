@@ -31,7 +31,9 @@ class Navbar extends Component {
               <span className="btn-separator">
                 |
               </span>
-              <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0">Login</NavLink>
+              <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0">
+                <i class="fas fa-user"></i>
+              </NavLink>
             </span>
           </div>
         </nav>
