@@ -146,7 +146,7 @@ class Create extends Component {
                 {/* Description */}
                 <div className="form-group">
                   <label htmlFor="description">Description</label>
-                  <input type="text"
+                  <textarea rows="5"
                     id="description"
                     value={this.state.podcast_description}
                     onChange={this.onChangePodcastDescription}
