@@ -13,6 +13,8 @@ import Signup from './views/Signup';
 
 import Card from './components/Card';
 
+import Overview from './views/dashboard/Overview';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -30,6 +32,9 @@ class App extends Component {
           <Route path='/signup' component={Signup} />
 
           <Route path='/card' component={Card} />
+          
+          {/* TEMP PATH */}
+          <Route path='/overview' component={Overview} />
         </Router>
         <Footer />
       </div>
