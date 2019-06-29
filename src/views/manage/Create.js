@@ -119,7 +119,7 @@ class Create extends Component {
             <div className="col-8">
               <form onSubmit={this.onSubmit}>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-8">
                     {/* Title */}
                     <div className="form-group">
                       <label htmlFor="title">Title</label>
@@ -131,7 +131,7 @@ class Create extends Component {
                       />
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-4">
                     {/* Episode */}
                     <div className="form-group">
                       <label htmlFor="episode">Episode</label>
@@ -143,17 +143,6 @@ class Create extends Component {
                   </div>
                 </div>
 
-                {/* Description */}
-                <div className="form-group">
-                  <label htmlFor="description">Description</label>
-                  <textarea rows="5"
-                    id="description"
-                    value={this.state.podcast_description}
-                    onChange={this.onChangePodcastDescription}
-                    className="form-control"
-                  />
-                </div>
-
                 {/* Author */}
                 <div className="form-group">
                   <label htmlFor="author">Author</label>
@@ -161,6 +150,19 @@ class Create extends Component {
                     id="author"
                     value={this.state.podcast_author}
                     onChange={this.onChangePodcastAuthor}
+                    className="form-control"
+                  />
+                </div>
+
+                <hr/>
+
+                {/* Description */}
+                <div className="form-group">
+                  <label htmlFor="description">Description</label>
+                  <textarea rows="5"
+                    id="description"
+                    value={this.state.podcast_description}
+                    onChange={this.onChangePodcastDescription}
                     className="form-control"
                   />
                 </div>
@@ -191,7 +193,7 @@ class Create extends Component {
 
                 {/* Play */}
                 <div className="form-group">
-                  <label htmlFor="play"><i class="fas fa-play-circle fa-fw"></i> Play Link (Listenotes)</label>
+                  <label htmlFor="play"><i class="fas fa-play-circle fa-fw"></i> Play Link (Listen Notes)</label>
                   <input type="text"
                     id="play"
                     value={this.state.podcast_play}
