@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="home">
         <div className="container">
           <img src={Logo} alt="Logo duuh" className="img-fluid logo mx-auto d-block" />
-          <h1 className="text-center">Search for podcasts</h1>
+          <h1 className="text-center">Search for podcasts <span class="badge badge-danger">Coming Soon</span></h1>
           <form action="">
             <div className="input-group mb-3">
               <input type="text" className="form-control" placeholder="ex. genre" />

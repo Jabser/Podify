@@ -9,6 +9,13 @@
   h1 {
     text-align: center;
     text-transform: uppercase;
+
+    .badge {
+      vertical-align: top;
+      font-size: 40%;
+      margin-left: 5px;
+      text-transform: uppercase;
+    }
   }
   form {
     .form-control {

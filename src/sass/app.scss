@@ -29,6 +29,13 @@ body {
     &:hover {
       border-bottom: 2px solid #ccc;
     }
+
+    .badge {
+      vertical-align: top;
+      font-size: 60%;
+      margin-left: 5px;
+      text-transform: uppercase;
+    }
   }
   .nav-link.active {
     border-bottom: 2px solid #e31f52;

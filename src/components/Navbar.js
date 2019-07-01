@@ -17,10 +17,10 @@ class Navbar extends Component {
                 <NavLink className="nav-link" exact={true} activeClassName="active" to="/">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/popular">Popular</NavLink>
+                <NavLink className="nav-link" to="/popular">Popular <span class="badge badge-danger">Beta</span></NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/genres">Genres</NavLink>
+                <NavLink className="nav-link" to="/genres">Genres <span class="badge badge-danger">Beta</span></NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">About</NavLink>
