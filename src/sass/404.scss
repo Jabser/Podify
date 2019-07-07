@@ -1,0 +1,23 @@
+.no-match {
+  padding: 25vh 0;
+  text-align: center;
+
+  .btn-back {
+    border-radius: 30rem;
+    border: 2px solid;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff !important;
+    transition: .3s;
+
+    &:hover {
+      border-color: #0062cc;
+      background: #0062cc;
+      color: #fff;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
