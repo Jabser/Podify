@@ -34,7 +34,7 @@ class App extends Component {
           <Route path='/card' component={Card} />
           
           {/* TEMP PATH */}
-          <Route path='/overview' component={Overview} />
+          <Route path='/dashboard' component={Overview} />
         </Router>
         <Footer />
       </div>
