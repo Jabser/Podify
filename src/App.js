@@ -15,7 +15,7 @@ import Card from './components/Card';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import NoMatch from './components/404';
+// import NoMatch from './components/404';
 
 class App extends Component {
   render() {
@@ -32,7 +32,7 @@ class App extends Component {
 
           <Route path='/card' component={Card} />
 
-          <Route component={NoMatch} />
+          {/* <Route component={NoMatch} /> */}
         </Router>
         <Footer />
       </div>
