@@ -8,6 +8,27 @@ class Overview extends Component {
         <div className="container-fluid">
           <h1>Dashboard - Overview</h1>
           <div className="row">
+            <div className="col-9">
+              <h3>Library</h3>
+              <div className="card">
+                <div className="card-body">
+                  
+                </div>
+              </div>
+
+
+
+              <hr/>
+
+
+
+              <h3>Curation Tools</h3>
+              <div className="card">
+                <div className="card-body">
+                  
+                </div>
+              </div>
+            </div>
             <div className="col-3">
               <h3>My Account</h3>
               <div className="card">
@@ -15,8 +36,14 @@ class Overview extends Component {
                   
                 </div>
               </div>
-            </div>
-            <div className="col-9">
+
+
+
+              <hr/>
+
+
+
+
               <h3>My Account Settings</h3>
               <ul class="list-group account-settings">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
