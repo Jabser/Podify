@@ -7,7 +7,7 @@ class CurationTools extends Component {
         <h3>Curation Tools</h3>
         <div className="card">
           <div className="card-body">
-            
+            <h4>Coming Soon</h4>
           </div>
         </div>
       </div>

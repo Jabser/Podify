@@ -4,24 +4,19 @@ class AccountSettings extends Component {
   render() {
     return (
       <div className="account-settings">
-        <h3>My Account Settings</h3>
-        <ul class="list-group account-settings">
+        <h3>Account Settings</h3>
+        <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-            <span className="parent w-25">
-              Name
-              <span className="child">
-                Jakob
-              </span>
-            </span>
-            <a href="" className="account-edit"><i class="fas fa-pencil-alt"></i></a>
+            <button className="btn btn-link">Change Email</button>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
-            Username
-            <a href="" className="account-edit"><i class="fas fa-pencil-alt"></i></a>
+            <button className="btn btn-link">Change Password</button>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
-            Email
-            <a href="" className="account-edit"><i class="fas fa-pencil-alt"></i></a>
+            <button className="btn btn-link">View Account Data</button>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <button className="btn btn-link">Delete Account</button>
           </li>
         </ul>
       </div>

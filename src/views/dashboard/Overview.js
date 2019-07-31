@@ -13,12 +13,12 @@ class Overview extends Component {
         <div className="container-fluid">
           <h1>Dashboard - Overview</h1>
           <div className="row">
-            <div className="col-9">
+            <div className="col-8">
               <Library />
               <hr/>
               <CurationTools />
             </div>
-            <div className="col-3">
+            <div className="col-4">
               <MyAccount />
               <hr/>
               <AccountSettings />

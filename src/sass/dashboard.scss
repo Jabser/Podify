@@ -1,27 +1,41 @@
 .overview {
-  padding: 15vh 0;
-
+  padding: 5vh 5vw 15vh 5vw;
   background: #f5f8f9;
 
   .library {
-    
+    h4 {
+      color: rgba(0,0,0,.5);
+      text-align: center;
+      margin: 0;
+      padding: 15vh 0;
+    }
   }
 
   .curation-tools {
-    
+    h4 {
+      color: rgba(0,0,0,.5);
+      text-align: center;
+      margin: 0;
+      padding: 15vh 0;
+    }
   }
 
   .my-account {
+    .account-img {
+      padding: 50px 0;
+    }
+    .title {
 
+    }
+    .value {
+      color: rgba(0,0,0,.5);
+      font-weight: bold;
+    }
   }
 
   .account-settings {
-    .parent {
-      
-
-      .child {
-        margin-left: 20px;
-      }
+    button {
+      margin: 0 auto;
     }
   }
 }
