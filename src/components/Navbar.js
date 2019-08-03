@@ -30,7 +30,7 @@ class Navbar extends Component {
               </li>
             </ul>
             <span class="navbar-text d-none d-md-block">
-              <NavLink to="/create" className="btn btn-navbar btn-add my-2 my-sm-0">Add Podcast</NavLink>
+              <NavLink to="/create" className="btn btn-navbar btn-add my-2 my-sm-0"><i class="fas fa-plus"></i></NavLink>
               <span className="btn-separator">
                 |
               </span>

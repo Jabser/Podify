@@ -45,13 +45,14 @@ body {
     }
   }
   .btn-add {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff !important;
+    background-color: rgba(0, 0, 0, .1) !important;
+    border-color: transparent;
+    color: rgba(0, 0, 0, .5) !important;
 
     &:hover {
-      background: #0062cc;
-      color: #fff;
+      background-color: rgba(0, 0, 0, .15) !important;
+      border-color: transparent;
+      color: rgba(0, 0, 0, .5) !important;
     }
   }
 }
