@@ -11,10 +11,18 @@ class Home extends Component {
           <h1 className="text-center">Search for podcasts</h1>
           <form action="">
             <div className="input-group mb-3">
-              <input type="text" className="form-control" placeholder="ex. genre" />
-              <div className="input-group-append">
+              <input type="text" className="form-control" placeholder="Search..." />
+              {/* <div className="input-group-append">
                 <button className="btn btn-secondary" type="button">Search</button>
-              </div>
+              </div> */}
+              {/* <span class="input-group-append">
+                <button class="btn btn-outline-secondary border-left-0" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span> */}
+              <span class="input-group-append">
+                  <div class="input-group-text"><i class="fa fa-search"></i></div>
+              </span>
             </div>
           </form>
           <div className="search-genres">
