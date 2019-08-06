@@ -58,9 +58,11 @@
 
         .progress {
           vertical-align: middle;
+          height: 0.3rem;
 
           .progress-bar {
             width: 25%;
+            background-color: rgba(0,0,0,.5);
           }
         }
 
