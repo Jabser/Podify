@@ -5,17 +5,20 @@ class AccountSettings extends Component {
     return (
       <div className="account-settings">
         <h3>Account Settings</h3>
-        <ul class="list-group">
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+        <ul className="list-group">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
+            <button className="btn btn-link">Change Profile Picture</button>
+          </li>
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <button className="btn btn-link">Change Email</button>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <button className="btn btn-link">Change Password</button>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <button className="btn btn-link">View Account Data</button>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <button className="btn btn-link">Delete Account</button>
           </li>
         </ul>

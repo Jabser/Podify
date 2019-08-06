@@ -5,11 +5,11 @@ class MyAccount extends Component {
     return (
       <div className="my-account">
         <h3>My Account</h3>
-        <ul class="list-group">
-          <li class="list-group-item text-center account-img">
-            <i class="far fa-user-circle fa-8x"></i>
+        <ul className="list-group">
+          <li className="list-group-item text-center account-img">
+            <i className="far fa-user-circle fa-8x"></i>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <span className="title">
               Username
             </span>
@@ -17,7 +17,7 @@ class MyAccount extends Component {
               Undefined
             </span>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <span className="title">
               Name
             </span>
@@ -25,7 +25,7 @@ class MyAccount extends Component {
               Undefined
             </span>
           </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center">
             <span className="title">
               Email
             </span>
