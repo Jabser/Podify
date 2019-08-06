@@ -12,6 +12,7 @@ import Login from './views/Login';
 import Signup from './views/Signup';
 
 import Card from './components/Card';
+import UniversalPlayer from './components/UniversalPlayer';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path='/signup' component={Signup} />
 
           <Route path='/card' component={Card} />
+          <Route path='/universalPlayer' component={UniversalPlayer} />
 
           {/* <Route component={NoMatch} /> */}
         </Router>
