@@ -18,6 +18,7 @@ class UniversalPlayer extends Component {
                 <img src={PocastCover} alt="podcast cover" />
                 <div className="info-links">
                   <a href="http://localhost:3000/universalPlayer" className="info-name">Podcast Name #136</a>
+                  <br/>
                   <a href="http://localhost:3000/universalPlayer" className="info-author">Post Malone</a>
                 </div>
               </div>
