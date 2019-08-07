@@ -30,11 +30,23 @@ class UniversalPlayer extends Component {
               {/* Controls (play, pause, progress bar etc.) */}
               <div className="controls">
                 <div className="buttons">
+                  <button className="btn btn-link">
+                    <i class="fas fa-thumbs-up"></i>
+                  </button>
+
+                  <span className="button-spacer"></span>
+
                   <button className="btn btn-link"><i class="fas fa-step-backward"></i></button>
 
                   <button className="btn btn-link"><i className="far fa-pause-circle fa-2x"></i></button>
 
                   <button className="btn btn-link"><i class="fas fa-step-forward"></i></button>
+                  
+                  <span className="button-spacer"></span>
+
+                  <button className="btn btn-link">
+                    <i class="fas fa-thumbs-down"></i>
+                  </button>
                 </div>
                 <div className="progress-container row">
                   <div className="col-1">
