@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="home">
         <div className="container">
           <img src={Logo} alt="Logo duuh" className="img-fluid logo mx-auto d-block" />
-          <h1 className="text-center">Search for podcasts</h1>
+          <h1 className="text-center">Search for Podcasts</h1>
           <form action="">
             <div className="input-group mb-3">
               <input type="text" className="form-control" placeholder="Search..." />
@@ -21,11 +21,11 @@ class Home extends Component {
                 </button>
               </span> */}
               <span class="input-group-append">
-                  <div class="input-group-text"><i class="fa fa-search"></i></div>
+                <div class="input-group-text"><i class="fa fa-search"></i></div>
               </span>
             </div>
           </form>
-          <div className="search-genres">
+          {/* <div className="search-genres">
             <a className="btn btn-link" href="https://listennotes.com">Business</a>
             <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">Comedy</a>
@@ -35,7 +35,7 @@ class Home extends Component {
             <a className="btn btn-link" href="https://listennotes.com">Politics</a>
             <i className="fas fa-circle"></i>
             <a className="btn btn-link" href="https://listennotes.com">History</a>
-          </div>
+          </div> */}
         </div>
       </div>
     )
