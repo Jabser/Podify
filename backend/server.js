@@ -58,9 +58,10 @@ podcastRoutes.route('/add').post(function (req, res) {
 // ******************************************************************************
 podcastRoutes.route('/update/:id').post(function (req, res) {
   Podcast.findById(req.params.id, function (err, podcast) {
-    if (!podcast) 
+    if (!podcast) {
       res.status(404).send('data is not found');
-    else
+    }
+    else {
       podcast.podcast_picture = req.body.podcast_picture;
       podcast.podcast_titel = req.body.podcast_titel;
       podcast.podcast_description = req.body.podcast_description;
@@ -69,13 +70,13 @@ podcastRoutes.route('/update/:id').post(function (req, res) {
       podcast.podcast_play = req.body.podcast_play;
       podcast.podcast_rating_like = req.body.podcast_rating_like;
       podcast.podcast_rating_dislike = req.body.podcast_rating_dislike;
-
-      podcast.save().then(podcast => {
-        res.json('Podcast updated');
-      })
-      .catch(err => {
-        res.status(400).send("Update not possible");
-      });
+    }
+    podcast.save().then(podcast => {
+      res.json('Podcast updated');
+    })
+    .catch(err => {
+      res.status(400).send("Update not possible");
+    });
   });
 });
 
