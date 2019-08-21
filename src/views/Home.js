@@ -8,7 +8,17 @@ class Home extends Component {
       <div className="home">
         <div className="container">
           <img src={Logo} alt="Logo duuh" className="img-fluid logo mx-auto d-block" />
-          <h1 className="text-center">Search for Podcasts</h1>
+          {/* <h1 className="text-center">Search for Podcasts</h1> */}
+          <form action="">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for podcasts" id="inputDefault" autoFocus />
+            </div>
+          </form>
+
+
+          <br/><br/><br/><br/>
+
+
           <form action="">
             <div className="input-group mb-3">
               <input type="text" className="form-control" placeholder="Search..." />

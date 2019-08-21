@@ -11,22 +11,48 @@
     margin-bottom: 60px;
   }
   form {
+    // .form-control {
+    //   border-top-left-radius: .75rem;
+    //   border-bottom-left-radius: .75rem;
+    //   border-right: 0;
+    //   padding: 1.5rem 0.75rem;
+    //   font-size: 1.2rem;
+    //   background: #fff;
+
+    //   &:focus {
+    //     color: #495057;
+    //     background-color: #fff;
+    //     outline: 0;
+    //     border-color: #ced4da;
+    //     box-shadow: none;
+    //   }
+    // }
+
     .form-control {
-      border-top-left-radius: .75rem;
-      border-bottom-left-radius: .75rem;
-      border-right: 0;
-      padding: 1.5rem 0.75rem;
+      border: 2px solid #e5e8ed;
+      border-radius: .75rem;
+      // border-radius: 0;
+      padding: 2rem 3rem;
       font-size: 1.2rem;
-      background: #fff;
+      background: #f3f5f9;
+      box-shadow: 0 0 4px rgba(3, 27, 78, 0.05);
+      text-align: center;
+      transition: .2s;
 
       &:focus {
         color: #495057;
-        background-color: #fff;
+        background-color: #f3f5f9;
         outline: 0;
-        border-color: #ced4da;
-        box-shadow: none;
+        border-radius: .75rem;
+        // border-radius: 0;
+        border-bottom: 2px solid #e21a4e;
+      }
+
+      &:hover {
+        border-bottom: 2px solid #e21a4e;
       }
     }
+
     .input-group-append {
       // width: 100px;
       
