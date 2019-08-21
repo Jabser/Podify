@@ -11,7 +11,7 @@ class Home extends Component {
           {/* <h1 className="text-center">Search for Podcasts</h1> */}
           <form action="">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for podcasts" id="inputDefault" autoFocus />
+              <input type="text" class="form-control" placeholder="Search Podcasts..." id="inputDefault" autoFocus />
             </div>
           </form>
 
