@@ -12,10 +12,14 @@
     position: relative;
     display: inline-block;
     box-shadow: 0 0 4px rgba(3, 27, 78, 0.1);
+    opacity: 0.8;
+    transition: .2s;
 
     &:hover {
+      opacity: 1;
       img {
         box-shadow: 0 0 20px rgba(3, 27, 78, 0.3);
+        
       }
     }
 
