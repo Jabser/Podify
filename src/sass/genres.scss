@@ -1,31 +1,36 @@
-.genrebox{
+.genrebox {
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 50px;
-  grid-gap: 30px;
-  margin: 100px auto;
+  grid-gap: 40px;
+  margin: 15vh auto;
   
-  a{
+  a {
     text-decoration: none;
     width: 100%;
     position: relative;
     display: inline-block;
+    box-shadow: 0 0 4px rgba(3, 27, 78, 0.1);
+    opacity: 0.8;
+    transition: .2s;
 
-    img{
-      width: 100%;
-      border-radius: 30px;
-      opacity: .7;
-      transition: .3s;
-
-      &:hover{
-        opacity: 1;
+    &:hover {
+      opacity: 1;
+      img {
+        box-shadow: 0 0 20px rgba(3, 27, 78, 0.3);
+        
       }
     }
 
-   
+    img {
+      width: 100%;
+      border-radius: .50rem;
+      box-shadow: 0 0 4px rgba(3, 27, 78, 0.1);
+      transition: .2s;
+    }
 
-    .textbox{
+    .textbox {
       width: 100%;
       position: absolute;
       margin: 0 auto;
@@ -33,18 +38,16 @@
       top: 50%;
       transform: translate(-50%, -50%);
 
-      p{
+      p {
         font-size: 40px;
         text-align: center;
         color: rgb(255, 255, 255);
         
       }
     }
-    
   }
  
-
-  .genrelink{
+  .genrelink {
     grid-column: 2/4;
     grid-row: 3/-1;
 
@@ -55,6 +58,5 @@
     border-bottom: 1px solid pink;
     color: #000;
     text-decoration: none;
-    
   }
 }
