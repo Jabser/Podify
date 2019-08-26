@@ -81,7 +81,7 @@ class Genres extends Component {
                 </div>
               </Link>
             </div>
-            <Link to="/" className="genrelink">See all genres</Link>
+            <Link to="/" className="genrelink">See all genres<span className="arrow bounce"><i class="bounce fas fa-chevron-down fa-fw"></i></span></Link>
           </div>
           
         </div>
