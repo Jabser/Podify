@@ -11,7 +11,20 @@ class Overview extends Component {
     return (
       <div className="overview">
         <div className="container-fluid">
-          <h1>Dashboard - Overview</h1>
+          <div>
+            <div className="row">
+              <div className="col-8">
+                <h1 className="dashboard-header">Dashboard - Overview</h1>
+              </div>
+              <div className="col-4">
+                <form action="" className="dashboard-search">
+                  <div className="form-group">
+                    <input type="text" class="form-control" placeholder="Search library..." id="dashboardSearch" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-8">
               <Library />
