@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="container">
-          <img src={Logo} alt="Logo duuh" className="img-fluid logo mx-auto d-block" />
+          <img src={Logo} alt="Podify logo" className="img-fluid logo mx-auto d-block" />
           <h1 className="home-header">Search for Podcasts</h1>
           <Search />
         </div>
