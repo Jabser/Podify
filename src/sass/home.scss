@@ -1,72 +1,51 @@
 .home {
-  padding: 20vh 0;
+  padding: 15vh 0 30vh 0;
 
   .logo {
     margin-bottom: 100px;
     width: 50%;
   }
 
-  h1 {
+  .home-header {
     text-align: center;
+    font-size: 1.6rem;
     text-transform: uppercase;
-
-    .badge {
-      vertical-align: top;
-      font-size: 40%;
-      margin-left: 5px;
-      text-transform: uppercase;
-    }
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 30px;
   }
   form {
     .form-control {
-      border-top-left-radius: .75rem;
-      border-bottom-left-radius: .75rem;
-      padding: 1.5rem 0.75rem;
+      border: 2px solid #e5e8ed;
+      border-radius: .75rem;
+      padding: 2rem 3rem;
       font-size: 1.2rem;
-      box-shadow: 0 0 4px rgba(3,27,78,.06);
+      text-align: center;
+      transition: .2s;
 
       &:focus {
         color: #495057;
-        background-color: #fff;
         outline: 0;
-        box-shadow: 0 0 20px rgba(3,27,78,.1);
+        box-shadow: 0 0 4px rgba(3, 27, 78, 0.07);
       }
-    }
-    .input-group-append {
-      width: 100px;
-      
-      button {
-        background-color: #e21a4e;
-        border-color: #e21a4e;
-        width: 100%;
-        border-top-right-radius: .75rem;
-        border-bottom-right-radius: .75rem;
-        font-size: 1.2rem;
 
-        &:hover {
-          background-color: #b91640;
-        }
-
-        &:focus {
-          box-shadow: none;
-        }
+      &:hover {
+        box-shadow: 0 0 4px rgba(3, 27, 78, 0.07);
       }
     }
   }
   .search-genres {
     text-align: center;
+    margin-top: 30px;
 
     a {
       color: #27323b;
-
-      &:hover {
-        
-      }
     }
     .fa-circle {
       color: #e21a4e;
       vertical-align: middle;
       font-size: .3rem;
+      margin: 0 15px;
     }
   }
 }
