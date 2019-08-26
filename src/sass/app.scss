@@ -13,7 +13,7 @@ body {
   box-shadow: 0 0 4px rgba(3,27,78,.20);
 
   .navbar-nav {
-    padding: 16px 0;
+    
   }
 
   .navbar-text {
@@ -25,9 +25,12 @@ body {
     font-size: 1.1rem;
     transition: .2s;
     border-bottom: 2px solid transparent;
+    box-shadow: none;
+    padding: 16px 0;
 
     &:hover {
       border-bottom: 2px solid #ccc;
+      background-color: #f9f9f9;
     }
 
     .badge {
@@ -38,7 +41,8 @@ body {
     }
   }
   .nav-link.active {
-    border-bottom: 2px solid #e31f52;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
   }
 
   .btn-separator {
