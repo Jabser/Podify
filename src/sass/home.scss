@@ -1,118 +1,51 @@
 .home {
-  padding: 20vh 0;
+  padding: 15vh 0 30vh 0;
 
   .logo {
     margin-bottom: 100px;
     width: 50%;
   }
 
-  h1 {
+  .home-header {
     text-align: center;
-    margin-bottom: 60px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 30px;
   }
   form {
-    // .form-control {
-    //   border-top-left-radius: .75rem;
-    //   border-bottom-left-radius: .75rem;
-    //   border-right: 0;
-    //   padding: 1.5rem 0.75rem;
-    //   font-size: 1.2rem;
-    //   background: #fff;
-
-    //   &:focus {
-    //     color: #495057;
-    //     background-color: #fff;
-    //     outline: 0;
-    //     border-color: #ced4da;
-    //     box-shadow: none;
-    //   }
-    // }
-
     .form-control {
       border: 2px solid #e5e8ed;
       border-radius: .75rem;
-      // border-radius: 0;
       padding: 2rem 3rem;
       font-size: 1.2rem;
-      background: #f3f5f9;
-      box-shadow: 0 0 4px rgba(3, 27, 78, 0.05);
       text-align: center;
       transition: .2s;
 
       &:focus {
         color: #495057;
-        background-color: #f3f5f9;
         outline: 0;
-        border-radius: .75rem;
-        // border-radius: 0;
-        border-bottom: 2px solid #e21a4e;
+        box-shadow: 0 0 4px rgba(3, 27, 78, 0.07);
       }
 
       &:hover {
-        border-bottom: 2px solid #e21a4e;
-      }
-    }
-
-    .input-group-append {
-      // width: 100px;
-      
-      // button {
-      //   background-color: #e21a4e;
-      //   border-color: #e21a4e;
-      //   width: 100%;
-      //   border-top-right-radius: .75rem;
-      //   border-bottom-right-radius: .75rem;
-      //   font-size: 1.2rem;
-
-      //   &:hover {
-      //     background-color: #b91640;
-      //   }
-
-      //   &:focus {
-      //     box-shadow: none;
-      //   }
-      // }
-
-      // button {
-      //   background-color: #fff;
-      //   color: #27323b;
-      //   width: 100%;
-      //   border-top-right-radius: .75rem;
-      //   border-bottom-right-radius: .75rem;
-      //   font-size: 1.2rem;
-      //   border: 1px solid #ced4da;
-
-      //   &:hover {
-      //     background-color: #fff;
-      //   }
-
-      //   &:focus {
-      //     box-shadow: none;
-      //     box-shadow: 0 0 20px rgba(3,27,78,.1);
-      //   }
-      // }
-
-      .input-group-text {
-        border-top-right-radius: .75rem;
-        border-bottom-right-radius: .75rem;
-        background-color: #fff;
+        box-shadow: 0 0 4px rgba(3, 27, 78, 0.07);
       }
     }
   }
   .search-genres {
     text-align: center;
+    margin-top: 30px;
 
     a {
       color: #27323b;
-
-      &:hover {
-        
-      }
     }
     .fa-circle {
       color: #e21a4e;
       vertical-align: middle;
       font-size: .3rem;
+      margin: 0 15px;
     }
   }
 }
