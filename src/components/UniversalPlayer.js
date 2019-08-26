@@ -9,9 +9,6 @@ class UniversalPlayer extends Component {
       <div className="universal-player">
         <div className="container player">
           <div className="row">
-
-
-
             <div className="col-3">
               {/* Info (Name, cover art, these also work as direct links etc.) */}
               <div className="info">
@@ -23,9 +20,6 @@ class UniversalPlayer extends Component {
                 </div>
               </div>
             </div>
-
-
-
             <div className="col-6">
               {/* Controls (play, pause, progress bar etc.) */}
               <div className="controls">
@@ -33,17 +27,11 @@ class UniversalPlayer extends Component {
                   <button className="btn btn-link">
                     <i class="fas fa-thumbs-up"></i>
                   </button>
-
                   <span className="button-spacer"></span>
-
                   <button className="btn btn-link"><i class="fas fa-step-backward"></i></button>
-
                   <button className="btn btn-link"><i className="far fa-pause-circle fa-2x"></i></button>
-
                   <button className="btn btn-link"><i class="fas fa-step-forward"></i></button>
-                  
                   <span className="button-spacer"></span>
-
                   <button className="btn btn-link">
                     <i class="fas fa-thumbs-down"></i>
                   </button>
@@ -64,9 +52,6 @@ class UniversalPlayer extends Component {
                 </div>
               </div>
             </div>
-
-
-
             <div className="col-3">
               {/* Volume controls */}
               <div className="volume">
