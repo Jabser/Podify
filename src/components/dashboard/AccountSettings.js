@@ -4,7 +4,6 @@ class AccountSettings extends Component {
   render() {
     return (
       <div className="account-settings">
-        <h3>Account Settings</h3>
         <ul className="list-group">
           <li className="list-group-item d-flex justify-content-between align-items-center">
             <button className="btn btn-link">Change Profile Picture</button>

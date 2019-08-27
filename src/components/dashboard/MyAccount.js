@@ -4,10 +4,10 @@ class MyAccount extends Component {
   render() {
     return (
       <div className="my-account">
-        <h3>My Account</h3>
+        <div className="spacer"></div>
         <ul className="list-group">
-          <li className="list-group-item text-center account-img">
-            <i className="far fa-user-circle fa-8x"></i>
+          <li className="list-group-item account-img">
+            <img src="https://uinames.com/api/photos/female/4.jpg" className="img-fluid d-block mx-auto rounded-circle" alt="" />
           </li>
           <li className="list-group-item d-flex justify-content-between align-items-center">
             <span className="title">
