@@ -1,7 +1,7 @@
 # Podify
 A search UI for finding podcasts. Initially started as a school project but further developed the idea. Included features are search, genres, most popular, library management & additional curation tools. 
 
-:construction: **Early Development** :construction:
+:construction: **Early Development - Code is a mess at times** :construction:
 
 ---
 
