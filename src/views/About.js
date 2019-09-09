@@ -3,6 +3,11 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../images/podify-logo.png';
 import '../sass/about.scss';
 
+// Images
+import popular from '../images/about/popular.svg';
+import library from '../images/about/library.svg';
+import curation from '../images/about/curation.svg';
+
 class About extends Component {
   render() {
     return (
@@ -39,14 +44,14 @@ class About extends Component {
                 <NavLink to="/popular" className="about-link">Browse the most popular </NavLink>
               </div>
               <div className="col-6">
-                <i className="fas fa-fire-alt fa-10x"></i>
+                <img src={popular} alt="about img" className="img-fluid " />
               </div>
             </div>
           </div>
           <div className="about-card">
             <div className="row">
               <div className="col-6">
-                <img src="https://steamcdn-a.akamaihd.net/store/about/cta_hero_steamworks_pt1.png" alt="about img" className="img-fluid" />
+                <img src={library} alt="about img" className="img-fluid" />
               </div>
               <div className="col-6">
                 <h1>Library Management <span className="badge badge-secondary">Coming Soon</span></h1>
@@ -67,7 +72,7 @@ class About extends Component {
                 <NavLink to="/popular" className="btn btn-link about-link disabled">Get started </NavLink>
               </div>
               <div className="col-6">
-                <img src="https://steamcdn-a.akamaihd.net/store/about/cta_hero_community.png" alt="about img" className="img-fluid" />
+                <img src={curation} alt="about img" className="img-fluid" />
               </div>
             </div>
           </div>
