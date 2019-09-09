@@ -45,7 +45,6 @@ body {
     }
   }
 
-  // VARIANT 1
   .btn-add {
     background-color: rgba(0, 0, 0, .1) !important;
     border-color: transparent;
@@ -57,30 +56,6 @@ body {
       color: rgba(0, 0, 0, .5) !important;
     }
   }
-
-  // VARIANT 2
-  // .btn-add {
-  //   border-color: transparent;
-  //   color: rgba(0, 0, 0, .5) !important;
-
-  //   &:hover {
-  //     background-color: rgba(0, 0, 0, .15) !important;
-  //     border-color: transparent;
-  //     color: rgba(0, 0, 0, .5) !important;
-  //   }
-  // }
-
-  // VARIANT 3
-  // .btn-add {
-  //   border-color: transparent;
-  //   color: rgba(0, 0, 0, .5) !important;
-
-  //   &:hover {
-  //     background-color: transparent;
-  //     border-color: transparent;
-  //     color: rgba(0, 0, 0, .9) !important;
-  //   }
-  // }
 }
 
 // ****************************************** //
