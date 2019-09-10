@@ -22,7 +22,7 @@ npm i -g nodemon
 **Running the server**
 
 ``
-nodemon server
+nodemon
 ``
 
 ---
