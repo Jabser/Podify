@@ -30,6 +30,7 @@
   }
 
   .library {
+    margin-bottom: 50px;
     h4 {
       color: rgba(0,0,0,.5);
       text-align: center;
@@ -39,6 +40,16 @@
   }
 
   .curation-tools {
+    margin-bottom: 50px;
+    h4 {
+      color: rgba(0,0,0,.5);
+      text-align: center;
+      margin: 0;
+      padding: 15vh 0;
+    }
+  }
+
+  .stats {
     h4 {
       color: rgba(0,0,0,.5);
       text-align: center;

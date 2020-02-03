@@ -5,6 +5,7 @@ import MyAccount from '../../components/dashboard/MyAccount';
 import AccountSettings from '../../components/dashboard/AccountSettings'
 import Library from '../../components/dashboard/Library';
 import CurationTools from '../../components/dashboard/CurationTools';
+import Stats from '../../components/dashboard/Stats';
 
 class Overview extends Component {
   render() {
@@ -28,8 +29,8 @@ class Overview extends Component {
           <div className="row">
             <div className="col-8">
               <Library />
-              <hr/>
               <CurationTools />
+              <Stats />
             </div>
             <div className="col-4">
               <MyAccount />
