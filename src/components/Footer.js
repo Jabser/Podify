@@ -17,7 +17,7 @@ class Footer extends Component {
             </a>
           </div>
           <div className="footer-legal">
-            &copy; 2019 Podify - Powered by the <a href="https://www.listennotes.com/" rel="noopener noreferrer" target="_blank">Listen Notes API</a>
+            &copy; 2019 - 2020 Podify - Powered by the <a href="https://www.listennotes.com/" rel="noopener noreferrer" target="_blank">Listen Notes API</a>
           </div>
         </div>
       </div>
