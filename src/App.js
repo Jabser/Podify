@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/app.scss';
@@ -15,7 +15,7 @@ import Card from './components/Card';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-// import NoMatch from './components/404';
+import NoMatch from './components/404';
 
 class App extends Component {
   render() {
@@ -23,16 +23,18 @@ class App extends Component {
       <div className="app">
         <Router>
           <Navbar />
-          <Route exact path='/' component={Home} />
-          <Route path='/popular' component={Popular} />
-          <Route path='/genres' component={Genres} />
-          <Route path='/about' component={About} />
-          <Route path='/login' component={Login} />
-          <Route path='/signup' component={Signup} />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/popular' component={Popular} />
+            <Route path='/genres' component={Genres} />
+            <Route path='/about' component={About} />
+            <Route path='/login' component={Login} />
+            <Route path='/signup' component={Signup} />
 
-          <Route path='/card' component={Card} />
+            <Route path='/card' component={Card} />
 
-          {/* <Route component={NoMatch} /> */}
+            <Route component={NoMatch} />
+          </Switch>
         </Router>
         <Footer />
       </div>
