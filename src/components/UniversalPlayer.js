@@ -16,7 +16,7 @@ class UniversalPlayer extends Component {
                 <div className="info-links">
                   <a href="http://localhost:3000/universalPlayer" className="info-name">Podcast Name #136</a>
                   <br/>
-                  <a href="http://localhost:3000/universalPlayer" className="info-author">Post Malone</a>
+                  <a href="http://localhost:3000/universalPlayer" className="info-author">Author</a>
                 </div>
               </div>
             </div>
