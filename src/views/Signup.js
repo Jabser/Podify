@@ -10,11 +10,11 @@ class Signup extends Component {
             <h1>CREATE AN ACCOUNT</h1>
             <form action="/">
               <label htmlFor="name">YOUR NAME:</label>
-              <input type="text" name="name" id="name" placeholder="ex. Jakob Jakobsen"/>
+              <input type="text" name="name" id="name" />
               <label htmlFor="email">YOUR EMAIL:</label>
-              <input type="text" name="email" id="email" placeholder="ex. jakob@mail.com"/>
+              <input type="text" name="email" id="email" />
               <label htmlFor="password">YOUR PASSWORD:</label>
-              <input type="password" name="password" id="password" placeholder="************"/>
+              <input type="password" name="password" id="password" />
               <input type="submit" name="submit" id="submit" value="Signup"/>
             </form>
             <p>Already have an account? <NavLink to='/login'>Login here</NavLink></p>
