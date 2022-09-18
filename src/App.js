@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/app.scss';
@@ -23,18 +23,18 @@ class App extends Component {
       <div className="app">
         <Router>
           <Navbar />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/popular' component={Popular} />
-            <Route path='/genres' component={Genres} />
-            <Route path='/about' component={About} />
-            <Route path='/login' component={Login} />
-            <Route path='/signup' component={Signup} />
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/popular' element={<Popular />} />
+            <Route path='/genres' element={<Genres />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<Signup />} />
 
-            <Route path='/card' component={Card} />
+            <Route path='/card' element={Card} />
 
             <Route component={NoMatch} />
-          </Switch>
+          </Routes>
         </Router>
         <Footer />
       </div>
