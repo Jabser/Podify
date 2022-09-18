@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../images/podify-logo.png';
+import Logo from '../images/logo.png';
 import '../sass/about.scss';
 
 // Images

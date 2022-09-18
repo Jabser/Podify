@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../sass/home.scss';
-import Logo from '../images/podify-logo.png';
-import Search from '../components/Search';
 
 class Home extends Component {
   render() {
