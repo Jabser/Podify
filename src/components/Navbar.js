@@ -1,42 +1,54 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Logo from '../images/logo.png';
+
 class Navbar extends Component {
   render() {
     return (
-      <div>
-          <nav className="navbar navbar-expand-md navbar-light flex-row">
-          <button className="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-        <nav className="navbar p-0 navbar-expand-md navbar-light">
-          <div className="collapse navbar-collapse px-3" id="navbarContent">
-            <ul className="navbar-nav mx-md-auto mx-0 w-50 align-items-start nav-fill">
-              <li className="nav-item">
-                <NavLink className="nav-link" exact={true} activeClassName="active" to="/">Home</NavLink>
+      <div className="headers">
+        <div className="container-fluid sub-header">
+          <header className='navbar justify-content-end'>
+            <ul className="nav col-12 col-md-auto mb-2 mb-md-0 navbar-links">
+              <li>
+                <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/popular">Popular <span class="badge badge-danger">Beta</span></NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/genres">Genres <span class="badge badge-danger">Beta</span></NavLink>
-              </li>
-              <li className="nav-item">
+              <li>
                 <NavLink className="nav-link" to="/about">About</NavLink>
               </li>
+              <li>
+                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+              </li>
             </ul>
-            <span className="navbar-text d-none d-md-block">
-              <NavLink to="/" className="btn btn-navbar btn-add my-2 my-sm-0">Add Podcast</NavLink>
-              <span className="btn-separator">
-                |
-              </span>
-              <NavLink to="/login" className="btn btn-navbar my-2 my-sm-0">
-                <i class="fas fa-user"></i>
-              </NavLink>
-            </span>
-          </div>
-        </nav>
+          </header>
+        </div>
+        <div className="container-fluid main-header">
+          <header className="navbar d-flex align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <NavLink to="/" className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0">
+              <img src={Logo} alt="logo" />
+            </NavLink>
+
+            <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 navbar-links">
+              <li>
+                <NavLink className="nav-link" exact={true} activeClassName="active" to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/episodes">Episodes</NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/trending">Trending</NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/channels">Channels</NavLink>
+              </li>
+            </ul>
+
+            <div className="col-md-3 text-end navbar-buttons">
+              <button type="button" className="btn btn-outline-primary me-3">Login</button>
+              <button type="button" className="btn btn-primary">Sign-up</button>
+            </div>
+          </header>
+        </div>
       </div>
     )
   }
