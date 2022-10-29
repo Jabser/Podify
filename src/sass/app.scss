@@ -94,15 +94,86 @@
 // ****************************************** //
 /* Footer */
 .footer {
-  background-color: #212529;
-  color: #fff;
-  
   img {
     height: 50px;
   }
 
+  .footer-start {
+    .container {
+      position: relative;
+      z-index: 59;
+      background-color: $c-cta;
+      color: #fff;
+      padding: 50px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
+      -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
+      -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
+      margin-bottom: -100px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      h2 {
+        font-size: 60px;
+      }
+
+      h5 {
+        font-weight: 400;
+        max-width: 80%;
+      }
+
+      .footer-cta {
+        .btn {
+          border-radius: 8px;
+          font-size: 1.3rem;
+          padding: 15px 45px;
+          transition: .3s;
+    
+          &.btn-primary {
+            color: #fff;
+            background-color: #212529;
+            border-color: #212529;
+    
+            svg {
+              height: 25px;
+              width: 25px;
+              margin-right: 10px;
+              margin-top: -5px;
+    
+              line {
+                stroke: #fff;
+              }
+            }
+    
+            &:hover {
+              background-color: #121417;
+            }
+          }
+          &.btn-text {
+            color: #212529;
+            
+            svg {
+              height: 25px;
+              width: 25px;
+              margin-right: 10px;
+              margin-top: -5px;
+            }
+    
+            &:hover {
+              background-color: #21252910;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .footer-main {
-    padding: 75px 0;
+    padding: 150px 0 0 0;
+    background-color: #212529;
+    color: #fff;
     
     h4 {
       
@@ -127,7 +198,7 @@
   }
 
   .footer-legal {
-    padding: 20px 0;
+    padding: 150px 0 20px 0;
     font-size: 13px;
     color: #919496;
     display: flex;
