@@ -94,6 +94,8 @@
 // ****************************************** //
 /* Footer */
 .footer {
+  margin-top: 150px;
+  
   img {
     height: 50px;
   }
@@ -109,7 +111,7 @@
       box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
       -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
       -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.15);
-      margin-bottom: -100px;
+      margin-bottom: -115px;
 
       display: flex;
       justify-content: space-between;
@@ -171,7 +173,7 @@
   }
 
   .footer-main {
-    padding: 150px 0 0 0;
+    padding: 230px 0 0 0;
     background-color: #212529;
     color: #fff;
     
