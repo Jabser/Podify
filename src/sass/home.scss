@@ -69,30 +69,74 @@
       width: 100%;
       object-fit: contain;
       z-index: -2;
+
+
+
+/* HomeInfo CSS */
+.home-info {
+  section {
+    padding: 8% 0;
+    background-color: #212529;
+    color: #fff;
+
+    h2 {
+      font-size: 60px;
     }
-    .btn-play {
-      margin-top: -95px;
-      display: flex;
-      margin-left: auto;
 
-      svg {
-        height: 125px;
-        width: 125px;
+    h5 {
+      font-weight: 500;
+    }
 
-        circle,
-        polygon {
-          stroke: $c-cta;
+    p {
+      font-size: 18px;
+    }
+
+    .container-fluid {
+      padding: 0 5%;
+
+      img {
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        transition: .3s;
+
+        &:hover {
+          transform: scale(1.03);
         }
       }
-
-      &:hover {
-        svg {
-          circle,
-          polygon {
-            stroke: $c-cta-hover;
-          }
+  
+      .text-box {
+        display: flex;
+        align-items: center;
+        padding: 8%;
+      }
+  
+      /* Image glow effect */
+      .img-glow {
+        -webkit-animation: glowing 5s ease-in-out infinite alternate;
+        -moz-animation: glowing 5s ease-in-out infinite alternate;
+        animation: glowing 5s ease-in-out infinite alternate;
+      }
+      @keyframes glowing {
+        from {
+          box-shadow: 0 0 5px #4361ee, 0 0 10px #4361ee, 0 0 15px #4361ee, 0 0 20px #4361ee, 0 0 25px #4361ee, 0 0 30px #4361ee, 0 0 35px #4361ee;
+        }
+        to {
+          box-shadow: 0 0 20px #1F44EA20, 0 0 30px #1F44EA20, 0 0 40px #1F44EA20, 0 0 50px #1F44EA20, 0 0 60px #1F44EA20, 0 0 70px #1F44EA20, 0 0 80px #1F44EA20;
         }
       }
     }
+
+    .heading {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+  }
+}
+
+
   }
 }
