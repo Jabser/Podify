@@ -138,5 +138,33 @@
 }
 
 
+/* HomeExplore CSS */
+.home-explore {
+  section {
+    padding: 8% 0;
+    background-color: #212529;
+    color: #fff;
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h5 {
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .container-fluid {
+      padding: 0 5%;
+    }
+
+    .heading {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 800px;
+    }
   }
 }
