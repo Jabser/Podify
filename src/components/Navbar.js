@@ -44,8 +44,9 @@ class Navbar extends Component {
             </ul>
 
             <div className="col-md-3 text-end navbar-buttons">
-              <button type="button" className="btn btn-outline-primary me-3">Login</button>
-              <button type="button" className="btn btn-primary">Sign-up</button>
+              <NavLink to="/search" type="button" className="btn btn-outline-primary me-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="25" width="25"><g><circle cx="5.92" cy="5.92" r="5.42" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="13.5" y1="13.5" x2="9.75" y2="9.75" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg></NavLink>
+              <NavLink to="/login" type="button" className="btn btn-outline-primary me-3">Login</NavLink>
+              <NavLink to="/signup" type="button" className="btn btn-primary">Sign-up</NavLink>
             </div>
           </header>
         </div>
