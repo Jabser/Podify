@@ -5,9 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/app.scss';
 
 import Home from './views/Home';
+import Episodes from './views/Episodes';
+import Trending from './views/Trending';
+import Channels from './views/Channels';
+
+import Pricing from './views/Pricing';
 import About from './views/About';
+import Contact from './views/Contact';
+
 import Login from './views/Login';
 import Signup from './views/Signup';
+import Search from './components/Search';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -21,9 +29,17 @@ class App extends Component {
           <Navbar />
           <Routes>
             <Route exact path='/' element={<Home />} />
+            <Route path='/episodes' element={<Episodes />} />
+            <Route path='/trending' element={<Trending />} />
+            <Route path='/channels' element={<Channels />} />
+
+            <Route path='/pricing' element={<Pricing />} />
             <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<Signup />} />
+            <Route path='/search' element={<Search />} />
 
             <Route component={NoMatch} />
           </Routes>
