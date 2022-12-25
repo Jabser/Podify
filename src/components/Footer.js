@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-import Logo from '../images/logo.png';
 class Footer extends Component {
   render() {
     return (
@@ -24,7 +22,10 @@ class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-3">
-                <img src={Logo} alt="logo" />
+                <div className="footer-logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height={14} width={14} ><g><line x1={0.5} y1={1.5} x2={0.5} y2={12.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={5.7} y1={3.5} x2={5.7} y2={10.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={3.1} y1={5} x2={3.1} y2={9} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={13.5} y1={1.5} x2={13.5} y2={12.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={10.9} y1={3.5} x2={10.9} y2={10.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={8.3} y1={5} x2={8.3} y2={9} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /></g></svg>
+                  <span>PODIFY</span>
+                </div>
               </div>
               <div className="col-md-3">
                 <h5>Company</h5>

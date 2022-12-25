@@ -21,6 +21,22 @@
   position: absolute;
   z-index: 1;
 
+  .navbar-brand {
+    color: #fff;
+
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+
+    span {
+      margin-left: 15px;
+      vertical-align: middle;
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+
   .navbar-links {
     .nav-link {
       margin: 0 5px;
@@ -93,8 +109,20 @@
 .footer {
   margin-top: 150px;
   
-  img {
-    height: 50px;
+  .footer-logo {
+    color: #fff;
+
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+
+    span {
+      margin-left: 15px;
+      vertical-align: middle;
+      font-size: 30px;
+      font-weight: 600;
+    }
   }
 
   .footer-start {
