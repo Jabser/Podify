@@ -3,6 +3,7 @@ import '../sass/home.scss';
 
 import HomeCover from '../images/home-cover2.png';
 import HomeInfo from '../components/home/HomeInfo';
+import HomeSearch from '../components/home/HomeSearch';
 
 import HomeVideo from '../video/home-video.mp4';
 
@@ -56,6 +57,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <HomeSearch />
         <HomeInfo />
       </div>
     )
