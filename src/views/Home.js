@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../sass/home.scss';
 
-import HomeCover from '../images/home-cover2.png';
+import HomeCover from '../images/home-featured.png';
 import HomeInfo from '../components/home/HomeInfo';
 import HomeSearch from '../components/home/HomeSearch';
 
