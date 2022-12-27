@@ -202,6 +202,104 @@
           box-shadow: 0 0 20px #1F44EA20, 0 0 30px #1F44EA20, 0 0 40px #1F44EA20, 0 0 50px #1F44EA20, 0 0 60px #1F44EA20, 0 0 70px #1F44EA20, 0 0 80px #1F44EA20;
         }
       }
+
+      .background {
+        background: url(../images/home/home-account.jpg) rgba(0, 0, 0, 0.55);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        min-height: 90vh;
+        border-radius: 8px;
+        padding: 75px;
+        display: flex;
+        align-items: center;
+
+        .heading {
+          text-align: left;
+          max-width: 50%;
+          margin: 0;
+
+          h5 {
+            margin-bottom: 75px;
+          }
+
+          hr {
+            margin: 50px 0;
+          }
+
+          .point {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 75px 0;
+
+            svg {
+              min-height: 48px;
+              height: 48px;
+              min-width: 48px;
+              width: 48px;
+            }
+
+            span {
+              margin-left: 35px;
+
+              h4 {
+                font-weight: 600;
+              }
+
+              p {
+                margin-bottom: 0;
+              }
+            }
+          }
+          .home-cta {
+            margin-top: 50px;
+        
+            .btn {
+              border-radius: 8px;
+              font-size: 1.3rem;
+              padding: 15px 45px;
+              transition: .3s;
+        
+              &.btn-primary {
+                color: #fff;
+                margin-left: 16px;
+        
+                svg {
+                  height: 25px;
+                  width: 25px;
+                  margin-right: 10px;
+                  margin-top: -5px;
+        
+                  line {
+                    stroke: #fff;
+                  }
+                }
+              }
+              &.btn-text {
+                color: #fff;
+                background-color: #ffffff20;
+                
+                svg {
+                  height: 25px;
+                  width: 25px;
+                  margin-right: 10px;
+                  margin-top: -5px;
+      
+                  path {
+                    stroke: #fff;
+                  }
+                }
+        
+                &:hover {
+                  background-color: #ffffff40;
+                }
+              }
+            }
+          }
+        }
+      }
     }
 
     .heading {
