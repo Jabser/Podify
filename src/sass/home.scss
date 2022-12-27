@@ -188,6 +188,12 @@
         padding: 8%;
       }
   
+      .img-border {
+        border: 5px solid $c-cta;
+        border-radius: 50px;
+        box-shadow: 25px 25px 0px $c-cta;
+      }
+
       /* Image glow effect */
       .img-glow {
         -webkit-animation: glowing 5s ease-in-out infinite alternate;

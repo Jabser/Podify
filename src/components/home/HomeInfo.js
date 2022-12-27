@@ -12,7 +12,7 @@ class HomeInfo extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
-                <img src={InfoOne} alt="info 1" className='img-glow' />
+                <img src={InfoOne} alt="info 1" className='img-border' />
               </div>
               <div className="col-md-6 text-box">
                 <div>
@@ -38,7 +38,7 @@ class HomeInfo extends Component {
                 </div>
               </div>
               <div className="col-md-6">
-                <img src={InfoTwo} alt="info 1" className='img-glow' />
+                <img src={InfoTwo} alt="info 1" className='img-border' />
               </div>
             </div>
           </div>
@@ -48,7 +48,9 @@ class HomeInfo extends Component {
           <div className="container">
             <div className="heading">
               <h2>Features to enhance your listening experience</h2>
-              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo numquam rem voluptatibus, architecto id obcaecati repellat porro ullam deserunt sapiente, neque explicabo nobis minus? Soluta nihil tempore facere distinctio!</h5>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo numquam rem voluptatibus, architecto id obcaecati repellat porro ullam deserunt sapiente, neque explicabo nobis minus? Soluta nihil tempore facere distinctio!
+              </h5>
             </div>
             <div className="row">
               <div className="col-md-6">
