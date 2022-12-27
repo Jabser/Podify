@@ -107,7 +107,7 @@ class HomeInfo extends Component {
                     Create an account
                   </button>
                   <button type="button" className="btn btn-primary me-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height={14} width={14} ><g><line x1={0.5} y1={1.5} x2={0.5} y2={12.5} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /><line x1={5.7} y1={3.5} x2={5.7} y2={10.5} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /><line x1={3.1} y1={5} x2={3.1} y2={9} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /><line x1={13.5} y1={1.5} x2={13.5} y2={12.5} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /><line x1={10.9} y1={3.5} x2={10.9} y2={10.5} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /><line x1={8.3} y1={5} x2={8.3} y2={9} fill="none" stroke="#212529" strokeLinecap="round" strokeLinejoin="round" /></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="512" width="512"><g><polygon points="13.5 5.5 7 12.5 0.5 5.5 3.5 1.5 10.5 1.5 13.5 5.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polygon><line x1="0.5" y1="5.5" x2="13.5" y2="5.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><polyline points="3.5 1.5 7 5.5 10.5 1.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polyline><line x1="7" y1="5.5" x2="7" y2="12.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
                     
                     Go premium
                   </button>
