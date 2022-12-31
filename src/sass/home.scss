@@ -166,6 +166,27 @@
       font-size: 18px;
     }
 
+    &.features {
+      .heading {
+        margin-bottom: 100px;
+      }
+
+      .card-feature {
+        padding: 35px;
+        border-radius: 8px;
+        background-color: $c-cta;
+        margin-bottom: 25px;
+
+        svg {
+          margin-bottom: 35px;
+        }
+
+        h4 {
+          font-weight: 600;
+        }
+      }
+    }
+
     .container-fluid {
       padding: 0 5%;
 
@@ -189,9 +210,9 @@
       }
   
       .img-border {
-        border: 5px solid $c-cta;
-        border-radius: 50px;
+        border-radius: 8px;
         box-shadow: 25px 25px 0px $c-cta;
+        align-items: center;
       }
 
       /* Image glow effect */
