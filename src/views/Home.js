@@ -59,6 +59,7 @@ class Home extends Component {
         </div>
         <HomeSearch />
         <HomeInfo />
+        <div className="home-ending"></div>
       </div>
     )
   }
