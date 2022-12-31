@@ -1,21 +1,30 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
 import '../sass/login.scss'
 
 class Login extends Component {
   render() {
     return (
       <div className="login">
-        <div className="container">
-          <div className="loginbox">
-            <h1>Login</h1>
-            <form action="/">
-              <input type="text" name="email" id="email" placeholder="Enter email..."/>
-              <input type="password" name="password" id="password" placeholder="Enter password..." />
-              <input type="submit" name="submit" id="submit" value="LOGIN"/>
-            </form>
-            <p>Don't have an account? <Link to="/signup">Signup here</Link></p>
-          </div>
+        <div className="login-img">
+          <h1>Test</h1>
+        </div>
+        <div className="login-form">
+          <form>
+            <h1>
+              Login
+            </h1>
+            <fieldset>
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="col-form-label-lg mt-4">Email address</label>
+                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="col-form-label-lg mt-4">Password</label>
+                <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" />
+              </div>
+            </fieldset>
+          </form>
         </div>
       </div>
     )
