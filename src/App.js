@@ -13,8 +13,9 @@ import Pricing from './views/Pricing';
 import About from './views/About';
 import Contact from './views/Contact';
 
-import Login from './views/Login';
-import Signup from './views/Signup';
+import Login from './views/user/Login';
+import Signup from './views/user/Signup';
+import Forgot from './views/user/Forgot';
 import Search from './components/Search';
 
 import Navbar from './components/Navbar';
@@ -39,6 +40,7 @@ class App extends Component {
 
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<Signup />} />
+            <Route path='/forgot' element={<Forgot />} />
             <Route path='/search' element={<Search />} />
 
             <Route component={NoMatch} />
