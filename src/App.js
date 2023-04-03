@@ -43,10 +43,10 @@ class App extends Component {
             <Route path='/forgot' element={<Forgot />} />
             <Route path='/search' element={<Search />} />
 
-            <Route component={NoMatch} />
+            <Route path="*" element={<NoMatch />} />
           </Routes>
+          <Footer />
         </Router>
-        <Footer />
       </div>
     )
   }

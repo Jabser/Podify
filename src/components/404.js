@@ -1,15 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import '../sass/404.scss';
-import Cover from '../images/404/cover.svg';
 
-function NoMatch({ location }) {
+const NoMatch = () => {
+  const location = useLocation();
   return (
     <div className="no-match">
       <div className="container">
-        <img src={Cover} className="img-fluid" alt="404 cover" />
-        <h1>That page doesn't exist: <code>{location.pathname}</code></h1>
-        <NavLink to="/" className="btn btn-back btn-lg">Take me home</NavLink>
+        <h1>That page doesn't exist: {location.pathname.replace('/','')}</h1>
+        <a href='/' type="button" className="btn btn-primary me-3">
+          Take me home
+        </a>
       </div>
     </div>
   );
