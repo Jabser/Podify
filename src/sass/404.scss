@@ -1,27 +1,30 @@
 .no-match {
-  padding: 25vh 0;
   text-align: center;
+  background-color: #212529;
+  min-height: 100vh;
+  color: #fff;
+  padding-bottom: 270px;
+  margin-bottom: -271px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
     width: 30%;
   }
 
-  .btn-back {
-    border-radius: 30rem;
-    border: 2px solid;
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff !important;
+  h1 {
+    font-size: 80px;
+  }
+
+  .btn {
+    border-radius: 8px;
+    font-size: 1.3rem;
+    padding: 15px 45px;
     transition: .3s;
 
-    &:hover {
-      border-color: #0062cc;
-      background: #0062cc;
+    &.btn-primary {
       color: #fff;
-    }
-
-    &:focus {
-      box-shadow: none;
     }
   }
 }
