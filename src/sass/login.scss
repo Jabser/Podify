@@ -54,19 +54,18 @@
   grid-row-gap: 0px;
   background-color: #212529;
   height: 100vh;
+  margin-bottom: -272px;
   
   .login-img { 
     grid-area: 1 / 1 / 2 / 2; 
     background-image: url(../images/user/user-1.jpg);
     background-size: cover;
-    padding: 8%;
+    background-position: center center;
     display: flex;
     align-items: center;
     color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
 
   .login-form { 
@@ -143,19 +142,18 @@
   grid-row-gap: 0px;
   background-color: #212529;
   height: 100vh;
+  margin-bottom: -272px;
   
   .signup-img { 
     grid-area: 1 / 1 / 2 / 2; 
     background-image: url(../images/user/user-2.jpg);
     background-size: cover;
-    padding: 8%;
+    background-position: center center;
     display: flex;
     align-items: center;
     color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
 
   .signup-form { 
@@ -232,19 +230,18 @@
   grid-row-gap: 0px;
   background-color: #212529;
   height: 100vh;
+  margin-bottom: -272px;
   
   .forgot-img { 
     grid-area: 1 / 1 / 2 / 2; 
     background-image: url(../images/user/user-3.jpg);
     background-size: cover;
-    padding: 8%;
+    background-position: center center;
     display: flex;
     align-items: center;
     color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
 
   .forgot-form { 
