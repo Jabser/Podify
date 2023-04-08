@@ -5,7 +5,7 @@ A search UI for finding podcasts. Initially started as a school project but furt
 
 ---
 
-![cover_image - COMING SOON]()
+![cover_image](cover.png)
 
 ---
 ## Available Scripts
