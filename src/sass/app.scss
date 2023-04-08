@@ -264,3 +264,50 @@ hr {
 .search {
   
 }
+
+// ****************************************** //
+/* Buttons */
+/*
+  Btn - Primary
+  Btn - Text - Secondary
+*/
+.btn {
+  border-radius: 8px;
+  font-size: 1.3rem;
+  padding: 15px 45px;
+  transition: .3s;
+
+  &.btn-primary {
+    color: #fff;
+
+    svg {
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+      margin-top: -5px;
+
+      line {
+        stroke: #fff;
+      }
+    }
+  }
+  &.btn-text {
+    color: #fff;
+    background-color: #ffffff20;
+    
+    svg {
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+      margin-top: -5px;
+
+      path {
+        stroke: #fff;
+      }
+    }
+
+    &:hover {
+      background-color: #ffffff40;
+    }
+  }
+}
