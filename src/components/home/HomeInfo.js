@@ -18,11 +18,14 @@ class HomeInfo extends Component {
                 <div>
                   <h2>Episodes</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius! Neque tempore debitis iure odio saepe laborum illo placeat natus assumenda, atque obcaecati dolorum ea dolor pariatur ratione facilis culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque laborum consectetur sequi repellendus aliquid necessitatibus, pariatur, obcaecati cum perferendis molestiae deserunt dolor expedita, illum odio error. Tenetur ipsa soluta mollitia?
-                  </p>
-                  <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius! Neque tempore debitis iure odio saepe laborum illo placeat natus assumenda, atque obcaecati dolorum ea dolor pariatur ratione facilis culpa. Lorem ipsum dolor sit amet consectetur.
                   </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius!
+                  </p>
+                  <a href='/episodes' type="button" className="btn btn-primary mt-4">
+                    Explore Episodes
+                  </a>
                 </div>
               </div>
             </div>
@@ -36,7 +39,7 @@ class HomeInfo extends Component {
                 <div>
                   <h2>Channels</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius! Neque tempore debitis iure odio saepe laborum illo placeat natus assumenda, atque obcaecati dolorum ea dolor pariatur ratione facilis culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque laborum consectetur sequi repellendus aliquid necessitatibus, pariatur, obcaecati cum perferendis molestiae deserunt dolor expedita, illum odio error. Tenetur ipsa soluta mollitia?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius! Neque tempore debitis iure odio saepe laborum illo placeat natus assumenda, atque obcaecati dolorum ea dolor pariatur ratione facilis culpa. Lorem ipsum dolor sit amet consectetur.
                   </p>
                   <p>
                     <ul>
@@ -52,14 +55,11 @@ class HomeInfo extends Component {
                       <li>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       </li>
-                      <li>
-                        Iure eligendi beatae error voluptates!
-                      </li>
-                      <li>
-                        Vitae voluptatibus ex voluptatum rerum
-                      </li>
                     </ul>
                   </p>
+                  <a href='/channels' type="button" className="btn btn-primary mt-4">
+                    Explore channels
+                  </a>
                 </div>
               </div>
               <div className="col-md-6">
@@ -81,7 +81,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><line x1="0.5" y1="13.5" x2="9.5" y2="4.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.5" y1="2.5" x2="12.5" y2="1.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="9" y1="2" x2="9" y2="0.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="12" y1="5" x2="13.5" y2="5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11" y1="7" x2="12" y2="8" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="6" y1="2" x2="7" y2="3" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Easy access</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -90,7 +90,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><circle cx="3" cy="11" r="2.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M5.5,3V1.5a1,1,0,0,0-1-1H3.32a1,1,0,0,0-1,.81L.55,10.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><line x1="4.5" y1="5.5" x2="9.5" y2="5.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="5.5" y1="8" x2="5.5" y2="11" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><circle cx="11" cy="11" r="2.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M8.5,3V1.5a1,1,0,0,1,1-1h1.18a1,1,0,0,1,1,.81l1.79,9.19" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><line x1="8.5" y1="8" x2="8.5" y2="11" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Discovery</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -101,7 +101,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><rect x="0.5" y="3.5" width="10" height="10" rx="1" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></rect><path d="M3.5.5h9a1,1,0,0,1,1,1v9" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><g><line x1="5.5" y1="6" x2="5.5" y2="11" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="8" y1="8.5" x2="3" y2="8.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Personal playlists</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -110,7 +110,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><path d="M7.5,9l-3,.54L5,6.5,10.73.79a1,1,0,0,1,1.42,0l1.06,1.06a1,1,0,0,1,0,1.42Z" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12,9.5v3a1,1,0,0,1-1,1H1.5a1,1,0,0,1-1-1V3a1,1,0,0,1,1-1h3" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Powerful customization</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -121,7 +121,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><circle cx="8.5" cy="4" r="1" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><circle cx="4.5" cy="9.5" r="0.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><circle cx="4.5" cy="5.5" r="1" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M9.52,12.28a1,1,0,0,0-.65-.88A2,2,0,0,1,9.5,7.5h1.87a2,2,0,0,0,1.89-2.67A6.5,6.5,0,1,0,7.13,13.5a6.3,6.3,0,0,0,1.74-.24A.9.9,0,0,0,9.52,12.28Z" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Themes</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -130,7 +130,7 @@ class HomeInfo extends Component {
               <div className="col-md-6">
                 <div className="card-feature">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="48" width="48"><g><polyline points="0.5 7 7 0.5 13.5 7" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polyline><polyline points="2.5 8.5 2.5 13.5 11.5 13.5 11.5 8.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polyline></g></svg>
-                  <h4>Lorem ipsum dolor</h4>
+                  <h4>Personal dashboard</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem praesentium.
                   </p>
@@ -181,15 +181,15 @@ class HomeInfo extends Component {
                   </span>
                 </div>
                 <div className="col-md-12 text-start home-cta">
-                  <button type="button" className="btn btn-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="512" width="512"><g><circle cx="5" cy="2.75" r="2.25" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M4.5,12.5H.5V11A4.51,4.51,0,0,1,7,7" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><line x1="10.5" y1="7.5" x2="10.5" y2="13.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7.5" y1="10.5" x2="13.5" y2="10.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
-                    Create an account
-                  </button>
-                  <button type="button" className="btn btn-primary me-3">
+                  <a href='/pricing' type="button" className="btn btn-primary me-3">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="512" width="512"><g><polygon points="13.5 5.5 7 12.5 0.5 5.5 3.5 1.5 10.5 1.5 13.5 5.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polygon><line x1="0.5" y1="5.5" x2="13.5" y2="5.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><polyline points="3.5 1.5 7 5.5 10.5 1.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></polyline><line x1="7" y1="5.5" x2="7" y2="12.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
                     
                     Go premium
-                  </button>
+                  </a>
+                  <a href='/signup' type="button" className="btn btn-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="512" width="512"><g><circle cx="5" cy="2.75" r="2.25" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M4.5,12.5H.5V11A4.51,4.51,0,0,1,7,7" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path><line x1="10.5" y1="7.5" x2="10.5" y2="13.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7.5" y1="10.5" x2="13.5" y2="10.5" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                    Create an account
+                  </a>
                 </div>
               </div>
             </div>

@@ -163,7 +163,11 @@
     }
 
     p {
-      font-size: 18px;
+      font-size: 20px;
+    }
+
+    ul li {
+      margin: 8px 0;
     }
 
     &.features {
@@ -176,6 +180,7 @@
         border-radius: 8px;
         background-color: $c-cta;
         margin-bottom: 25px;
+        transition: .3s;
 
         svg {
           margin-bottom: 35px;
@@ -183,6 +188,10 @@
 
         h4 {
           font-weight: 600;
+        }
+
+        &:hover {
+          transform: scale(1.03);
         }
       }
     }
@@ -192,6 +201,7 @@
 
       img {
         height: 60vh;
+        min-height: 600px;
         width: 100%;
         object-fit: cover;
         border-top-left-radius: 50px;
@@ -372,7 +382,6 @@
 /* HomeSearch CSS */
 .home-search {
   section {
-    // padding: 8% 0;
     padding: 0;
     background-color: #212529;
     color: #fff;
@@ -396,7 +405,7 @@
       h4 {
         margin: 0 0 35px 0;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
       }
 
       form {
@@ -404,7 +413,7 @@
           padding: 25px 35px;
           text-align: center;
           border-radius: 8px;
-          font-size: 18px;
+          font-size: 20px;
         }
       }
     }
