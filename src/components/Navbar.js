@@ -21,7 +21,7 @@ class Navbar extends Component {
           </header>
         </div>
         <div className="container-fluid main-header">
-          <header className="navbar d-flex align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+          <header className="navbar d-flex align-items-center justify-content-center justify-content-md-between py-3">
             <NavLink to="/" className="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height={14} width={14} ><g><line x1={0.5} y1={1.5} x2={0.5} y2={12.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={5.7} y1={3.5} x2={5.7} y2={10.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={3.1} y1={5} x2={3.1} y2={9} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={13.5} y1={1.5} x2={13.5} y2={12.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={10.9} y1={3.5} x2={10.9} y2={10.5} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /><line x1={8.3} y1={5} x2={8.3} y2={9} fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" /></g></svg>
               <span>PODIFY</span>
