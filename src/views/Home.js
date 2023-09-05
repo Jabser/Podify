@@ -27,7 +27,7 @@ class Home extends Component {
                       <br/>
                       to your favorite
                       <br/>
-                      podcasts here!
+                      podcasts!
                     </h1>
                     <h4>
                       The best podcast websites communicate a feel and make it easy for visitors to discover your podcast
