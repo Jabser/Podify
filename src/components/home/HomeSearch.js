@@ -15,7 +15,14 @@ class HomeSearch extends Component {
               </h4>
               <form action="">
                 <div class="form-group">
-                  <input class="form-control form-control-lg" type="text" placeholder="Search..." id="inputLarge" spellcheck="false" data-ms-editor="true" />
+                  <input 
+                    class="form-control form-control-lg" 
+                    type="text" 
+                    placeholder="Search..." 
+                    id="inputLarge" 
+                    spellcheck="false" 
+                    data-ms-editor="true" 
+                    />
                 </div>
               </form>
             </div>
